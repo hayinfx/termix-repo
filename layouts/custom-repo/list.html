@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h1>Index of /custom-repo</h1>
+  <ul>
+    {{ range .Site.StaticFiles }}
+      {{ if strings.HasPrefix .RelPermalink "/custom-repo/" }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Path | replace "custom-repo/" "" }}</a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}
