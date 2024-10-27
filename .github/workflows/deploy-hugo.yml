@@ -1,0 +1,30 @@
+name: Deploy Hugo Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the 'main' branch (adjust this to your default branch).
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'  # You can specify a version like '0.118.2' if needed.
+
+    - name: Build Hugo site
+      run: hugo --minify
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        personal_token: ${{ secrets.GITHUB_TOKEN }}
+        external_repository: hayinfx/termix-repo  # Replace with your GitHub username and repository name.
+        publish_dir: ./public  # Hugo's output directory.
+        publish_branch: gh-pages  # The branch to deploy to.
