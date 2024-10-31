@@ -1,0 +1,1 @@
+termux-apt-repo static static/apt/termix-main stable main
