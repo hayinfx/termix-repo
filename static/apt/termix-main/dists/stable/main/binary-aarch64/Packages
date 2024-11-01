@@ -6,7 +6,7 @@ Version: 2.26
 Homepage: http://alpine.x10host.com/
 Depends: coreutils, libcrypt, ncurses, openssl, openssl-tool
 Description: Fast, easy to use email client
-Filename: dists/stable/main/binary-aarch64/alpine_2.26_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/alpine_2.26_aarch64.deb
 Size: 1838108
 MD5Sum: 4bb9051b010f896b729d322e9dca2a01
 SHA1: a18faa45582501aee7f084e54fb2d530e9eb7f62
@@ -21,7 +21,7 @@ Version: 2.8.1-1
 Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.8.1-1)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
-Filename: dists/stable/main/binary-aarch64/apt-ftparchive_2.8.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/apt-ftparchive_2.8.1-1_aarch64.deb
 Size: 94956
 MD5Sum: 42a2bdcf79b4a9fe096ef7b8ac5270c5
 SHA1: b9b67aa38848d9e909997f18eb123af8b8e3f92f
@@ -41,7 +41,7 @@ Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-rep
 Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg
 Description: Front-end for the dpkg package manager
-Filename: dists/stable/main/binary-aarch64/apt_2.8.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/apt_2.8.1-1_aarch64.deb
 Size: 1027768
 MD5Sum: 3d7632e718a0b13a2e03544c158e83cd
 SHA1: 9b92285bbd3eda5846c0a825e987946cac19e8b0
@@ -60,7 +60,7 @@ Essential: yes
 Recommends: command-not-found, bash-completion
 Replaces: bash-dev
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
-Filename: dists/stable/main/binary-aarch64/bash_5.2.37_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/bash_5.2.37_aarch64.deb
 Size: 883552
 MD5Sum: cf8aff64b387a05a10ff82cf23935bd4
 SHA1: 22eb97c114b514bd634c007671000cfe5a6a3740
@@ -77,7 +77,7 @@ Depends: libblkid, libmount, libsmartcols, libuuid
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
 Description: Utilities for handling block device attributes
-Filename: dists/stable/main/binary-aarch64/blk-utils_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/blk-utils_2.40.2-1_aarch64.deb
 Size: 176200
 MD5Sum: 5a2fa17de9d4f8f25632e99e31a3c309
 SHA1: 123e4769b5362282aebbbe8e2aa9f9ebea1f9d0d
@@ -93,7 +93,7 @@ Homepage: https://github.com/google/brotli
 Breaks: brotli-dev
 Replaces: brotli-dev
 Description: lossless compression algorithm and format (command line utility)
-Filename: dists/stable/main/binary-aarch64/brotli_1.1.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/brotli_1.1.0_aarch64.deb
 Size: 325880
 MD5Sum: b8ae0afdc01e579e951926a766092b6f
 SHA1: c6caeb2fb7d891a140bc1a49ac114f00feeb445a
@@ -109,7 +109,7 @@ Homepage: http://www.bzip.org/
 Essential: yes
 Depends: libbz2 (= 1.0.8-6)
 Description: Tools for working with bzip2 compression
-Filename: dists/stable/main/binary-aarch64/bzip2_1.0.8-6_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/bzip2_1.0.8-6_aarch64.deb
 Size: 26124
 MD5Sum: 989d087c38f0653890f24c09bdb5ad76
 SHA1: b976c801645bf782b8d4ad23f9ef6c99f530860b
@@ -126,7 +126,7 @@ Breaks: c-ares-dev
 Depends: resolv-conf
 Replaces: c-ares-dev
 Description: Library for asynchronous DNS requests (including name resolves)
-Filename: dists/stable/main/binary-aarch64/c-ares_1.34.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/c-ares_1.34.2_aarch64.deb
 Size: 191436
 MD5Sum: 0d1f5cf7198790430688199cc321b409
 SHA1: f2c9bde6fd31091d7d524b6f2d0896122ceb2fdd
@@ -141,7 +141,7 @@ Version: 2.4.0-48
 Homepage: https://github.com/termux/command-not-found
 Depends: libc++
 Description: Suggest installation of packages in interactive shell sessions
-Filename: dists/stable/main/binary-aarch64/command-not-found_2.4.0-48_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/command-not-found_2.4.0-48_aarch64.deb
 Size: 16720
 MD5Sum: cb9a0445bb9290d25c53f4d86fdb6f5a
 SHA1: be7b59753ffcd944270aefcf2df5a444843299ad
@@ -159,7 +159,7 @@ Depends: libandroid-selinux, libandroid-support, libgmp, libiconv
 Essential: yes
 Replaces: chroot, busybox (<< 1.30.1-4)
 Description: Basic file, shell and text manipulation utilities from the GNU project
-Filename: dists/stable/main/binary-aarch64/coreutils_9.5-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/coreutils_9.5-3_aarch64.deb
 Size: 769188
 MD5Sum: b90cce9ce614a6d2d3b3b99a24377c51
 SHA1: e8fc91c07057ba09745fcf9c73c5668853005033
@@ -175,7 +175,7 @@ Homepage: https://curl.se/
 Essential: yes
 Depends: libcurl (= 8.10.1-1)
 Description: Command line tool for transferring data with URL syntax
-Filename: dists/stable/main/binary-aarch64/curl_8.10.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/curl_8.10.1-1_aarch64.deb
 Size: 211788
 MD5Sum: 56da30dde9658c61a1a5dd5a3503290e
 SHA1: 18e5186df9c47d08c2a16123274676812158d7c6
@@ -191,7 +191,7 @@ Homepage: https://curl.se/
 Essential: yes
 Depends: libcurl (= 8.10.1-2)
 Description: Command line tool for transferring data with URL syntax
-Filename: dists/stable/main/binary-aarch64/curl_8.10.1-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/curl_8.10.1-2_aarch64.deb
 Size: 211800
 MD5Sum: 4efb4335c99227a8abd7095d2ef71878
 SHA1: 8f9b1aa80a731532c6a7e25e22ccc13f3488d5e9
@@ -206,7 +206,7 @@ Version: 0.5.12
 Homepage: http://gondor.apana.org.au/~herbert/dash/
 Essential: yes
 Description: Small POSIX-compliant implementation of /bin/sh
-Filename: dists/stable/main/binary-aarch64/dash_0.5.12_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dash_0.5.12_aarch64.deb
 Size: 65828
 MD5Sum: a753fc016a6b05d295aaa04b04e7018d
 SHA1: 85e2df51aea155bc86f6c722a2eec6c36577ae6f
@@ -221,7 +221,7 @@ Version: 18.1.40-4
 Homepage: https://www.oracle.com/database/berkeley-db
 Depends: libdb (= 18.1.40-4)
 Description: The Berkeley DB embedded database system
-Filename: dists/stable/main/binary-aarch64/db_18.1.40-4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/db_18.1.40-4_aarch64.deb
 Size: 40708
 MD5Sum: 0d9d1c4823de91aeee310a62341862d6
 SHA1: 398f284623a20db9fd9acca7748cd5e1a9f8838d
@@ -235,7 +235,7 @@ Maintainer: @termux
 Version: 5.20
 Homepage: https://packages.debian.org/debianutils
 Description: Small utilities which are used primarily by the installation scripts of Debian packages
-Filename: dists/stable/main/binary-aarch64/debianutils_5.20_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/debianutils_5.20_aarch64.deb
 Size: 16200
 MD5Sum: 21b1b4330f655cd7f4e52b1fe54dc404
 SHA1: 2c9183ace45e087fd4684753acf85d8df26f443e
@@ -250,7 +250,7 @@ Version: 1.3-20240307-0
 Homepage: https://invisible-island.net/dialog/
 Depends: dialog (= 1.3-20240307-0)
 Description: Static libraries for dialog
-Filename: dists/stable/main/binary-aarch64/dialog-static_1.3-20240307-0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dialog-static_1.3-20240307-0_aarch64.deb
 Size: 93424
 MD5Sum: 811a942bd24ffac59593f443790012f4
 SHA1: ba77885d08c50ce4df5f484ea7e4b7e4341c6fc1
@@ -265,7 +265,7 @@ Version: 1.3-20240307-0
 Homepage: https://invisible-island.net/dialog/
 Depends: libandroid-support, ncurses
 Description: Application used in shell scripts which displays text user interface widgets
-Filename: dists/stable/main/binary-aarch64/dialog_1.3-20240307-0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dialog_1.3-20240307-0_aarch64.deb
 Size: 100384
 MD5Sum: 4fdab7511ebe3ddc7e7a315ca2a853fe
 SHA1: c3558f153f33b84626fa582c2e07c22758062040
@@ -281,7 +281,7 @@ Homepage: https://www.gnu.org/software/diffutils/
 Depends: libiconv
 Essential: yes
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
-Filename: dists/stable/main/binary-aarch64/diffutils_3.10_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/diffutils_3.10_aarch64.deb
 Size: 157308
 MD5Sum: 10a82e465f34f32318499e899b2448f6
 SHA1: 4c8779619333d7eedd9b44c2e50be3333226e4dd
@@ -296,7 +296,7 @@ Version: 7.5.2
 Homepage: https://waterlan.home.xs4all.nl/dos2unix.html
 Depends: libandroid-support
 Description: Converts between DOS and Unix text files
-Filename: dists/stable/main/binary-aarch64/dos2unix_7.5.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dos2unix_7.5.2_aarch64.deb
 Size: 64380
 MD5Sum: bbc06164383dfc9a07c0a719595611df
 SHA1: 7c1fdf3c9dd8859c1666f8ed1612e2ace8bf27ce
@@ -314,7 +314,7 @@ Depends: bzip2, coreutils, diffutils, gzip, less, libbz2, liblzma, libmd, tar, x
 Essential: yes
 Replaces: dpkg-dev
 Description: Debian package management system
-Filename: dists/stable/main/binary-aarch64/dpkg_1.22.6-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/dpkg_1.22.6-1_aarch64.deb
 Size: 305080
 MD5Sum: 99f8f6bac199bccaa6bf9e234356ca24
 SHA1: 4fb434493560089b234b54e9db3a034686bd49ad
@@ -328,7 +328,7 @@ Maintainer: Oliver Schmidhauser @Neo-Oli
 Version: 1.20.2
 Homepage: https://www.gnu.org/software/ed/
 Description: Classic UNIX line editor
-Filename: dists/stable/main/binary-aarch64/ed_1.20.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ed_1.20.2_aarch64.deb
 Size: 41552
 MD5Sum: 3406fe9ac201d51da5d6d9abc686516c
 SHA1: 2c1e9f496b7045775decb9e921426214176a7cf4
@@ -343,7 +343,7 @@ Version: 2.40.2-1
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Depends: libfdisk, libmount, ncurses, readline, libsmartcols
 Description: Utilities to manipulate disk partition tables
-Filename: dists/stable/main/binary-aarch64/fdisk_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/fdisk_2.40.2-1_aarch64.deb
 Size: 112448
 MD5Sum: a0003d6ec3bb6b6f95742f319a627914
 SHA1: 0955a0d0906c34d203d0dc87f87506a44efd07db
@@ -359,7 +359,7 @@ Homepage: https://www.gnu.org/software/findutils/
 Depends: libandroid-support
 Essential: yes
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
-Filename: dists/stable/main/binary-aarch64/findutils_4.10.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/findutils_4.10.0_aarch64.deb
 Size: 251720
 MD5Sum: e2ab67d920c46f2d283d79f53ba00f09
 SHA1: 6c08cc4e2ff3fcf7cf88e5ab7d63a109b711ce1e
@@ -374,7 +374,7 @@ Version: 2.15.0
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Depends: fontconfig (= 2.15.0)
 Description: Static libraries for fontconfig
-Filename: dists/stable/main/binary-aarch64/fontconfig-static_2.15.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/fontconfig-static_2.15.0_aarch64.deb
 Size: 116756
 MD5Sum: 70ce1c6cf9f34bd43f170adb3f7273dd
 SHA1: 034bc1bc0a93c53108e93948698e2a04e11e46d3
@@ -389,7 +389,7 @@ Version: 2.15.0
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Depends: fontconfig (= 2.15.0)
 Description: Fontconfig binaries
-Filename: dists/stable/main/binary-aarch64/fontconfig-utils_2.15.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/fontconfig-utils_2.15.0_aarch64.deb
 Size: 14400
 MD5Sum: 46f4c3a8e50010fbd1444475a175e32b
 SHA1: 02720ede304e03973f98468c7c5b79eb3de4bf08
@@ -406,7 +406,7 @@ Breaks: fontconfig-dev
 Depends: freetype, libexpat, ttf-dejavu
 Replaces: fontconfig-dev
 Description: Library for configuring and customizing font access
-Filename: dists/stable/main/binary-aarch64/fontconfig_2.15.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/fontconfig_2.15.0_aarch64.deb
 Size: 121832
 MD5Sum: 2044978269256f4e39ca7588a9816f79
 SHA1: f35d9aecf75099938b9f386e28eb2014aef0a60b
@@ -421,7 +421,7 @@ Version: 2.13.3
 Homepage: https://www.freetype.org
 Depends: freetype (= 2.13.3)
 Description: Static libraries for freetype
-Filename: dists/stable/main/binary-aarch64/freetype-static_2.13.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/freetype-static_2.13.3_aarch64.deb
 Size: 301348
 MD5Sum: 1c59368aa58f65eaf916a2112a85bdc9
 SHA1: 9bc24ea38c0ce68ae7a7393deabe16acf1bda00a
@@ -438,7 +438,7 @@ Breaks: freetype-dev
 Depends: brotli, libbz2, libpng, zlib
 Replaces: freetype-dev
 Description: Software font engine capable of producing high-quality output
-Filename: dists/stable/main/binary-aarch64/freetype_2.13.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/freetype_2.13.3_aarch64.deb
 Size: 409468
 MD5Sum: b283082d5a5a13835c604a8fa3fd0691
 SHA1: 492bf8b1ffcfd573482373470006f6818cef5987
@@ -453,7 +453,7 @@ Version: 5.3.0
 Homepage: https://www.gnu.org/software/gawk/
 Depends: gawk (= 5.3.0)
 Description: Static libraries for gawk
-Filename: dists/stable/main/binary-aarch64/gawk-static_5.3.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gawk-static_5.3.0_aarch64.deb
 Size: 24944
 MD5Sum: bc8d8624a67ca83295c87293dcde83d3
 SHA1: 432df13ec11bf69486385b8883797353a92d313f
@@ -471,7 +471,7 @@ Depends: libandroid-support, libgmp, libmpfr, readline
 Essential: yes
 Replaces: gawk-dev
 Description: Programming language designed for text processing
-Filename: dists/stable/main/binary-aarch64/gawk_5.3.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gawk_5.3.0_aarch64.deb
 Size: 784112
 MD5Sum: 25809af91b66a7463a2c8b906588113b
 SHA1: cc9559530288945c982b247a7a4d7f57ad09cb46
@@ -486,7 +486,7 @@ Version: 1.24
 Homepage: https://www.gnu.org.ua/software/gdbm/
 Depends: gdbm (= 1.24)
 Description: Static libraries for gdbm
-Filename: dists/stable/main/binary-aarch64/gdbm-static_1.24_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gdbm-static_1.24_aarch64.deb
 Size: 31216
 MD5Sum: c39e0fa3e275dc675fc5e4521eab7f56
 SHA1: c49f50c11fdc7c867c738d0fac1804bd010e41be
@@ -503,7 +503,7 @@ Breaks: gdbm-dev
 Depends: readline
 Replaces: gdbm-dev
 Description: Library of database functions that use extensible hashing
-Filename: dists/stable/main/binary-aarch64/gdbm_1.24_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gdbm_1.24_aarch64.deb
 Size: 143340
 MD5Sum: 9478533faf519eb4eb2cf1ca69c22f0a
 SHA1: 0f2a691921c9ef18ce3e0e8b939edb7a9f885dab
@@ -521,7 +521,7 @@ Conflicts: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Replaces: gnupg2 (<< 2.2.9-1), dirmngr (<< 2.2.17-1)
 Suggests: scdaemon
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
-Filename: dists/stable/main/binary-aarch64/gnupg_2.4.5-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gnupg_2.4.5-3_aarch64.deb
 Size: 1361320
 MD5Sum: 6fd721365a51cecaf14ca5af39291333
 SHA1: a8d7a7930fa9acb3be2efbaf275da4ac6468fea6
@@ -536,7 +536,7 @@ Version: 3.8.5
 Homepage: https://www.gnutls.org/
 Depends: libgnutls (= 3.8.5)
 Description: Commandline utilities for interfacing with the gnutls library
-Filename: dists/stable/main/binary-aarch64/gnutls_3.8.5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gnutls_3.8.5_aarch64.deb
 Size: 175652
 MD5Sum: e12c0214e51c7222c10eacca61a581bf
 SHA1: 408bed313f807c52f4d1430dcb17d0f349dd32c2
@@ -551,7 +551,7 @@ Version: 2.4.5-3
 Homepage: https://www.gnupg.org/
 Depends: libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib
 Description: GNU privacy guard - signature verification tool
-Filename: dists/stable/main/binary-aarch64/gpgv_2.4.5-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gpgv_2.4.5-3_aarch64.deb
 Size: 181452
 MD5Sum: 4e191d355ed4f3c35024fb55c92d574b
 SHA1: 09dc8d1331a44b7a07b1bf7f082515ae6d1e4748
@@ -567,7 +567,7 @@ Homepage: https://www.gnu.org/software/grep/
 Depends: libandroid-support, pcre2
 Essential: yes
 Description: Command which searches one or more input files for lines containing a match to a specified pattern
-Filename: dists/stable/main/binary-aarch64/grep_3.11_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/grep_3.11_aarch64.deb
 Size: 124204
 MD5Sum: fffd6c13a5c19360f01898e026372027
 SHA1: 4856362d4e091e537de7f8d7dc83e6d6be6938c4
@@ -582,7 +582,7 @@ Version: 1.13
 Homepage: https://www.gnu.org/software/gzip/
 Essential: yes
 Description: Standard GNU file compression utilities
-Filename: dists/stable/main/binary-aarch64/gzip_1.13_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/gzip_1.13_aarch64.deb
 Size: 80484
 MD5Sum: 6fffa551725afe88ff2993eff4303136
 SHA1: ea372111c4f184587a7fc730b5646e5588592a96
@@ -597,7 +597,7 @@ Version: 1.17
 Homepage: https://www.gnu.org/software/libiconv/
 Depends: libiconv (= 1.17)
 Description: Utility converting between different character encodings
-Filename: dists/stable/main/binary-aarch64/iconv_1.17_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/iconv_1.17_aarch64.deb
 Size: 9184
 MD5Sum: d579b9d380035acc15310dc7fe4aaecd
 SHA1: c3475f103370f3213e1403cc6505ad12b7a90ae6
@@ -613,7 +613,7 @@ Homepage: https://www.gnu.org/software/inetutils/
 Depends: readline
 Suggests: whois
 Description: Collection of common network programs
-Filename: dists/stable/main/binary-aarch64/inetutils_2.4-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/inetutils_2.4-2_aarch64.deb
 Size: 251144
 MD5Sum: 47beefbffd11290253a699194f192526
 SHA1: 95bff4181c59adddbae6233f538c081105b7feb3
@@ -629,7 +629,7 @@ Homepage: https://www.greenwoodsoftware.com/less/
 Depends: ncurses, pcre2
 Essential: yes
 Description: Terminal pager program used to view the contents of a text file one screen at a time
-Filename: dists/stable/main/binary-aarch64/less_661_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/less_661_aarch64.deb
 Size: 125336
 MD5Sum: 38b569f87b91a62bc412b7880e97f3df
 SHA1: 02d9867d8da99709d0dc8363eb29fe9e70526e6c
@@ -644,7 +644,7 @@ Version: 0.6-2
 Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Depends: libandroid-glob (= 0.6-2)
 Description: Static libraries for libandroid-glob
-Filename: dists/stable/main/binary-aarch64/libandroid-glob-static_0.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-glob-static_0.6-2_aarch64.deb
 Size: 4708
 MD5Sum: 9431d2ce0a329df2075136561de5a660
 SHA1: 35cdaac0dc6ebc3839360e6ea7cc957ecd1b1d2d
@@ -660,7 +660,7 @@ Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
 Description: Shared library for the glob(3) system function
-Filename: dists/stable/main/binary-aarch64/libandroid-glob_0.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-glob_0.6-2_aarch64.deb
 Size: 7052
 MD5Sum: 9327e056171043cc249111ac2be94468
 SHA1: cd6d81cab8caf45eaef6b4f50ece3757592cfdb6
@@ -675,7 +675,7 @@ Version: 0.1-3
 Homepage: https://man7.org/linux/man-pages/man7/sem_overview.7.html
 Depends: libandroid-posix-semaphore (= 0.1-3)
 Description: Static libraries for libandroid-posix-semaphore
-Filename: dists/stable/main/binary-aarch64/libandroid-posix-semaphore-static_0.1-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-posix-semaphore-static_0.1-3_aarch64.deb
 Size: 2856
 MD5Sum: 2f90d8c234be0b4411e184115fee8b9f
 SHA1: 1d82e9ce2d3aadf4648ec5100099a77823a2a0ca
@@ -689,7 +689,7 @@ Maintainer: @termux
 Version: 0.1-3
 Homepage: https://man7.org/linux/man-pages/man7/sem_overview.7.html
 Description: Shared library for the posix semaphore system function
-Filename: dists/stable/main/binary-aarch64/libandroid-posix-semaphore_0.1-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-posix-semaphore_0.1-3_aarch64.deb
 Size: 4060
 MD5Sum: 470c830ee4deb556414a36625be48aba
 SHA1: efb6f758cfdfeca32d9583691a0c97cd71360e97
@@ -704,7 +704,7 @@ Version: 14.0.0.11
 Homepage: https://selinuxproject.org
 Depends: pcre2
 Description: Android fork of libselinux, an SELinux userland library
-Filename: dists/stable/main/binary-aarch64/libandroid-selinux_14.0.0.11_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-selinux_14.0.0.11_aarch64.deb
 Size: 59696
 MD5Sum: 885faa9de986cad37d522edd0cbd08f7
 SHA1: f29782c6d192c99302e852ec8875e05bd4b52a91
@@ -719,7 +719,7 @@ Version: 29
 Homepage: https://github.com/termux/libandroid-support
 Depends: libandroid-support (= 29)
 Description: Static libraries for libandroid-support
-Filename: dists/stable/main/binary-aarch64/libandroid-support-static_29_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-support-static_29_aarch64.deb
 Size: 8652
 MD5Sum: 5fbfeb02695f49edc30741872e11024a
 SHA1: fd7a6c158e1973e5513ab53381013462c5e2aabf
@@ -734,7 +734,7 @@ Version: 29
 Homepage: https://github.com/termux/libandroid-support
 Essential: yes
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
-Filename: dists/stable/main/binary-aarch64/libandroid-support_29_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-support_29_aarch64.deb
 Size: 10896
 MD5Sum: 5af0231b91509663ee2f2f1af8525835
 SHA1: 4e6305dece3bdd87cd5cad627606352ee28ea1a4
@@ -749,7 +749,7 @@ Version: 0.4
 Homepage: https://github.com/termux/libandroid-utimes
 Depends: libandroid-utimes (= 0.4)
 Description: Static libraries for libandroid-utimes
-Filename: dists/stable/main/binary-aarch64/libandroid-utimes-static_0.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-utimes-static_0.4_aarch64.deb
 Size: 1680
 MD5Sum: ecb3a9900451b306d02c47d062b10d43
 SHA1: 498d422e5a5380ab31a313eadc57b30abd411c93
@@ -763,7 +763,7 @@ Maintainer: @termux
 Version: 0.4
 Homepage: https://github.com/termux/libandroid-utimes
 Description: futimes, futimesat and lutimes from bionic
-Filename: dists/stable/main/binary-aarch64/libandroid-utimes_0.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libandroid-utimes_0.4_aarch64.deb
 Size: 3088
 MD5Sum: 8c21c9df6d331c607afaec910396ce06
 SHA1: 626ab4dc355c33e3b0bebf90feec8f2272eb1b48
@@ -778,7 +778,7 @@ Version: 3.0.1-2
 Homepage: https://www.gnupg.org/related_software/libassuan/
 Depends: libassuan (= 3.0.1-2)
 Description: Static libraries for libassuan
-Filename: dists/stable/main/binary-aarch64/libassuan-static_3.0.1-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libassuan-static_3.0.1-2_aarch64.deb
 Size: 33664
 MD5Sum: 6583e8c76a71726e8cb368b851903929
 SHA1: 41dd001eba1dab925207daf5ef88097724f2b71e
@@ -795,7 +795,7 @@ Breaks: gnupg (<< 2.4.5-3), gpgv (<< 2.4.5-3), gpgme (<< 1.23.2-3), pinentry (<<
 Depends: libgpg-error
 Replaces: libassuan-dev
 Description: Library implementing the Assuan IPC protocol used between most newer GnuPG components
-Filename: dists/stable/main/binary-aarch64/libassuan_3.0.1-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libassuan_3.0.1-2_aarch64.deb
 Size: 73952
 MD5Sum: 6ec8fb88708cf16c911cb776881b79ac
 SHA1: b5bfaf77f7b2308021c3b0fb715730db112e4dc0
@@ -811,7 +811,7 @@ Homepage: https://en.wikipedia.org/wiki/Util-linux
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
 Description: Block device identification library
-Filename: dists/stable/main/binary-aarch64/libblkid_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libblkid_2.40.2-1_aarch64.deb
 Size: 124200
 MD5Sum: 8b79628ec01227b03a9f2fde13b56192
 SHA1: 2fb28f187ff877bdb3d75addd8588258e23d0c45
@@ -828,7 +828,7 @@ Breaks: libbz2-dev
 Essential: yes
 Replaces: libbz2-dev
 Description: BZ2 format compression library
-Filename: dists/stable/main/binary-aarch64/libbz2_1.0.8-6_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libbz2_1.0.8-6_aarch64.deb
 Size: 26144
 MD5Sum: ee41be578c90dbf9d57c53c92fd5914d
 SHA1: b28489fc5f6130a0665d5281520073d31c806106
@@ -843,7 +843,7 @@ Version: 27b
 Homepage: https://libcxx.llvm.org/
 Essential: yes
 Description: C++ Standard Library
-Filename: dists/stable/main/binary-aarch64/libc++_27b_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libc++_27b_aarch64.deb
 Size: 298680
 MD5Sum: e5a3f308d98106ae3a0f193270a9e106
 SHA1: d266317fad5ae2c0db62f3c5001ffe653ccc9904
@@ -858,7 +858,7 @@ Version: 2:0.8.5
 Homepage: https://people.redhat.com/sgrubb/libcap-ng/
 Depends: libcap-ng (= 2:0.8.5)
 Description: Static libraries for libcap-ng
-Filename: dists/stable/main/binary-aarch64/libcap-ng-static_2:0.8.5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcap-ng-static_2:0.8.5_aarch64.deb
 Size: 8808
 MD5Sum: 40fc97f3fad4e9194016819c8a5348cc
 SHA1: 49cc688d0588e8f37eee8760c5bf7987a28e8287
@@ -872,7 +872,7 @@ Maintainer: @termux
 Version: 2:0.8.5
 Homepage: https://people.redhat.com/sgrubb/libcap-ng/
 Description: Library making programming with POSIX capabilities easier than traditional libcap
-Filename: dists/stable/main/binary-aarch64/libcap-ng_2:0.8.5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcap-ng_2:0.8.5_aarch64.deb
 Size: 35540
 MD5Sum: 1f11e9dabcbcab6cf7328c1e7293e9ff
 SHA1: fe555a267a77447e416ff8c115281877596fbe67
@@ -889,7 +889,7 @@ Breaks: libcrypt-dev
 Depends: openssl
 Replaces: libcrypt-dev
 Description: A crypt(3) implementation
-Filename: dists/stable/main/binary-aarch64/libcrypt_0.2-5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcrypt_0.2-5_aarch64.deb
 Size: 8864
 MD5Sum: 8abfcd0e6e49ac5026c8936be0e7efca
 SHA1: 478f67a1f1a5c0d92e2e958e41c7773ad53b58c7
@@ -904,7 +904,7 @@ Version: 8.10.1-1
 Homepage: https://curl.se/
 Depends: libcurl (= 8.10.1-1)
 Description: Static libraries for libcurl
-Filename: dists/stable/main/binary-aarch64/libcurl-static_8.10.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcurl-static_8.10.1-1_aarch64.deb
 Size: 354420
 MD5Sum: 0265185a1260422fb2107eff02177752
 SHA1: f7fbf2e5dd4c6ab1325c34c6fcf96999d389a223
@@ -919,7 +919,7 @@ Version: 8.10.1-2
 Homepage: https://curl.se/
 Depends: libcurl (= 8.10.1-2)
 Description: Static libraries for libcurl
-Filename: dists/stable/main/binary-aarch64/libcurl-static_8.10.1-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcurl-static_8.10.1-2_aarch64.deb
 Size: 353744
 MD5Sum: 5fccac9af2c138bdff920de742dae58d
 SHA1: 56f3b9229f02669ca17f640ad468213496dcd66c
@@ -938,7 +938,7 @@ Essential: yes
 Conflicts: apt (<< 1.4.8-8)
 Replaces: libcurl-dev
 Description: Easy-to-use client-side URL transfer library
-Filename: dists/stable/main/binary-aarch64/libcurl_8.10.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcurl_8.10.1-1_aarch64.deb
 Size: 905900
 MD5Sum: 9c7cab876fa0c82b031668f0cd5008ce
 SHA1: 22e342213f9c71500591fd90682d0fe8eeb163a1
@@ -957,7 +957,7 @@ Essential: yes
 Conflicts: apt (<< 1.4.8-8)
 Replaces: libcurl-dev
 Description: Easy-to-use client-side URL transfer library
-Filename: dists/stable/main/binary-aarch64/libcurl_8.10.1-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libcurl_8.10.1-2_aarch64.deb
 Size: 905276
 MD5Sum: cfba3df306dd01209f64633c8531c0f3
 SHA1: 38a77cdaf2579845ea3c75dfb614d800df46b4f6
@@ -972,7 +972,7 @@ Version: 18.1.40-4
 Homepage: https://www.oracle.com/database/berkeley-db
 Depends: libdb (= 18.1.40-4)
 Description: Static libraries for libdb
-Filename: dists/stable/main/binary-aarch64/libdb-static_18.1.40-4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libdb-static_18.1.40-4_aarch64.deb
 Size: 480812
 MD5Sum: 0783d14db57a420624215945995868f6
 SHA1: 14e665abb64b3ebabe1b67f7d5e07a116674e740
@@ -989,7 +989,7 @@ Breaks: libdb-dev
 Depends: libc++
 Replaces: libdb-dev
 Description: The Berkeley DB embedded database system (library)
-Filename: dists/stable/main/binary-aarch64/libdb_18.1.40-4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libdb_18.1.40-4_aarch64.deb
 Size: 509476
 MD5Sum: 3dc3df1dd46d11e7bdb472aac94eebc9
 SHA1: a2eb0c9af8c37f7c32ae114737f01278f0a80b34
@@ -1005,7 +1005,7 @@ Homepage: https://libevent.org/
 Breaks: libevent-dev
 Replaces: libevent-dev
 Description: Library that provides asynchronous event notification
-Filename: dists/stable/main/binary-aarch64/libevent_2.1.12-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libevent_2.1.12-2_aarch64.deb
 Size: 202840
 MD5Sum: e8238b309848f071ede038ab33011d3a
 SHA1: 6bf13d663040e01088ac295e37709795e74324ec
@@ -1020,7 +1020,7 @@ Version: 2.6.3
 Homepage: https://libexpat.github.io/
 Depends: libexpat (= 2.6.3)
 Description: Static libraries for libexpat
-Filename: dists/stable/main/binary-aarch64/libexpat-static_2.6.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libexpat-static_2.6.3_aarch64.deb
 Size: 55488
 MD5Sum: 7124399a7c852a884aeecf3fb50cb127
 SHA1: b57f391bd04774aca4b5d4858aae843a991b4674
@@ -1036,7 +1036,7 @@ Homepage: https://libexpat.github.io/
 Breaks: libexpat-dev
 Replaces: libexpat-dev
 Description: XML parsing C library
-Filename: dists/stable/main/binary-aarch64/libexpat_2.6.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libexpat_2.6.3_aarch64.deb
 Size: 85652
 MD5Sum: 8747be2c404bfa47897be76bce3c45a7
 SHA1: cb84c17640e2fe9e6c29a7b2c7194619653f1606
@@ -1051,7 +1051,7 @@ Version: 2.40.2-1
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Depends: libblkid, libuuid
 Description: Library for manipulating disk partition tables
-Filename: dists/stable/main/binary-aarch64/libfdisk_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libfdisk_2.40.2-1_aarch64.deb
 Size: 156372
 MD5Sum: 0556f669c943a33b7c32ce725537b53b
 SHA1: ddb730a2698d3ea4921fcc84a7822285ca330b84
@@ -1066,7 +1066,7 @@ Version: 3.4.6-1
 Homepage: https://sourceware.org/libffi/
 Depends: libffi (= 3.4.6-1)
 Description: Static libraries for libffi
-Filename: dists/stable/main/binary-aarch64/libffi-static_3.4.6-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libffi-static_3.4.6-1_aarch64.deb
 Size: 16372
 MD5Sum: ecc1186bfc7fc65312b87adcbbc67330
 SHA1: cccc5c4e3d9df53cd45f6b9094f307dd40c407d7
@@ -1082,7 +1082,7 @@ Homepage: https://sourceware.org/libffi/
 Breaks: libffi-dev
 Replaces: libffi-dev
 Description: Library providing a portable, high level programming interface to various calling conventions
-Filename: dists/stable/main/binary-aarch64/libffi_3.4.6-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libffi_3.4.6-1_aarch64.deb
 Size: 30756
 MD5Sum: aaf4162e5b2b82e5a217b1f89c61e8ec
 SHA1: be6e34c37c8bf69f1aeaff48713e9c1698c00a7c
@@ -1097,7 +1097,7 @@ Version: 1.11.0
 Homepage: https://www.gnu.org/software/libgcrypt/
 Depends: libgcrypt (= 1.11.0)
 Description: Static libraries for libgcrypt
-Filename: dists/stable/main/binary-aarch64/libgcrypt-static_1.11.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgcrypt-static_1.11.0_aarch64.deb
 Size: 454012
 MD5Sum: 9e377717b6232070f58f11311f839131
 SHA1: f1c095dd881d310892019e08e4a906235eeac3fa
@@ -1114,7 +1114,7 @@ Breaks: libgcrypt-dev
 Depends: libgpg-error
 Replaces: libgcrypt-dev
 Description: General purpose cryptographic library based on the code from GnuPG
-Filename: dists/stable/main/binary-aarch64/libgcrypt_1.11.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgcrypt_1.11.0_aarch64.deb
 Size: 489136
 MD5Sum: 37c421487a32de11f32d395741e9a5b6
 SHA1: 2b234feb17a719cfa54ae33cbe49371f8d471b33
@@ -1129,7 +1129,7 @@ Version: 6.3.0-1
 Homepage: https://gmplib.org/
 Depends: libgmp (= 6.3.0-1)
 Description: Static libraries for libgmp
-Filename: dists/stable/main/binary-aarch64/libgmp-static_6.3.0-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgmp-static_6.3.0-1_aarch64.deb
 Size: 227112
 MD5Sum: 7c274c2fd264131b661be7b08d05c705
 SHA1: f71837fd065d96269a6d4453f73dbea61fb7e91e
@@ -1144,7 +1144,7 @@ Version: 6.3.0
 Homepage: https://gmplib.org/
 Depends: libgmp (= 6.3.0)
 Description: Static libraries for libgmp
-Filename: dists/stable/main/binary-aarch64/libgmp-static_6.3.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgmp-static_6.3.0_aarch64.deb
 Size: 227444
 MD5Sum: 073374c6a6ad309f5437068b381abfb5
 SHA1: 83b0d3ab33b7bf53ad7426eeac0299aaeb5ca48c
@@ -1161,7 +1161,7 @@ Breaks: libgmp-dev
 Depends: libc++
 Replaces: libgmp-dev
 Description: Library for arbitrary precision arithmetic
-Filename: dists/stable/main/binary-aarch64/libgmp_6.3.0-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgmp_6.3.0-1_aarch64.deb
 Size: 327596
 MD5Sum: c3db183ddaba653aa410b3420c41ecb1
 SHA1: 443b8d83a12b5c5f4f06a12bdca61d65bfdccf5f
@@ -1178,7 +1178,7 @@ Breaks: libgmp-dev
 Depends: libc++
 Replaces: libgmp-dev
 Description: Library for arbitrary precision arithmetic
-Filename: dists/stable/main/binary-aarch64/libgmp_6.3.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgmp_6.3.0_aarch64.deb
 Size: 327604
 MD5Sum: 9073b6f90772f55d6b54f501b9089184
 SHA1: d779bc3b0f9c199daff3c885d1f446067219391e
@@ -1193,7 +1193,7 @@ Version: 3.8.5
 Homepage: https://www.gnutls.org/
 Depends: libgnutls (= 3.8.5)
 Description: Static libraries for libgnutls
-Filename: dists/stable/main/binary-aarch64/libgnutls-static_3.8.5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgnutls-static_3.8.5_aarch64.deb
 Size: 787444
 MD5Sum: 65197f53a36d630a4db9af7458c52fe3
 SHA1: 409e729b11edb63a9926a43bb80a2c38bcc8dfe3
@@ -1210,7 +1210,7 @@ Breaks: libgnutls-dev
 Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libunbound, libunistring
 Replaces: libgnutls-dev
 Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
-Filename: dists/stable/main/binary-aarch64/libgnutls_3.8.5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgnutls_3.8.5_aarch64.deb
 Size: 727556
 MD5Sum: 38a3f1909c3739840d9c5f2340363b4c
 SHA1: 90d36676fd53732541d4b3792db6b312ca17ed20
@@ -1225,7 +1225,7 @@ Version: 1.50
 Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Depends: libgpg-error (= 1.50)
 Description: Static libraries for libgpg-error
-Filename: dists/stable/main/binary-aarch64/libgpg-error-static_1.50_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgpg-error-static_1.50_aarch64.deb
 Size: 60440
 MD5Sum: 470a409f5cdab7b325e5d1f23e3f46e8
 SHA1: fed964734afed29ba3aa5ad770092757ec4815c6
@@ -1241,7 +1241,7 @@ Homepage: https://www.gnupg.org/related_software/libgpg-error/
 Breaks: libgpg-error-dev
 Replaces: libgpg-error-dev
 Description: Small library that defines common error values for all GnuPG components
-Filename: dists/stable/main/binary-aarch64/libgpg-error_1.50_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libgpg-error_1.50_aarch64.deb
 Size: 114272
 MD5Sum: 93f0ba8861ebd9761e5939aa964c2fdd
 SHA1: 905119457672460e52c3c428c4eab9fbea9cf50d
@@ -1256,7 +1256,7 @@ Version: 1.17
 Homepage: https://www.gnu.org/software/libiconv/
 Depends: libiconv (= 1.17)
 Description: Static libraries for libiconv
-Filename: dists/stable/main/binary-aarch64/libiconv-static_1.17_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libiconv-static_1.17_aarch64.deb
 Size: 554864
 MD5Sum: b7d1aa61851931017f64703a44733135
 SHA1: ff6eabce90e24367d654f25077561d56958e6f67
@@ -1272,7 +1272,7 @@ Homepage: https://www.gnu.org/software/libiconv/
 Breaks: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Replaces: libandroid-support (<= 24), libiconv-dev, libandroid-support-dev
 Description: An implementation of iconv()
-Filename: dists/stable/main/binary-aarch64/libiconv_1.17_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libiconv_1.17_aarch64.deb
 Size: 556748
 MD5Sum: 1e667a557636b589ec48812b06a6b656
 SHA1: 688a3eb70775cf33283400ed8a783b9429acbe68
@@ -1287,7 +1287,7 @@ Version: 2.3.7
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Depends: libidn2 (= 2.3.7)
 Description: Static libraries for libidn2
-Filename: dists/stable/main/binary-aarch64/libidn2-static_2.3.7_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libidn2-static_2.3.7_aarch64.deb
 Size: 72636
 MD5Sum: 548aaaec7c56b4dc01afb55c334283c1
 SHA1: d232f98c18c9b4460969c4e2c5a6a43b043de17f
@@ -1304,7 +1304,7 @@ Breaks: libidn2-dev
 Depends: libandroid-support, libiconv, libunistring
 Replaces: libidn2-dev
 Description: Free software implementation of IDNA2008, Punycode and TR46
-Filename: dists/stable/main/binary-aarch64/libidn2_2.3.7_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libidn2_2.3.7_aarch64.deb
 Size: 105252
 MD5Sum: ab8fe2de7a498fa16004285b3b80c67f
 SHA1: debc01944a5cbd2742f878a2ccc1c94a2685415b
@@ -1319,7 +1319,7 @@ Version: 1.6.7-1
 Homepage: https://gnupg.org/related_software/libksba/
 Depends: libksba (= 1.6.7-1)
 Description: Static libraries for libksba
-Filename: dists/stable/main/binary-aarch64/libksba-static_1.6.7-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libksba-static_1.6.7-1_aarch64.deb
 Size: 91492
 MD5Sum: 9c1d43a5620b18e7b28c9d16bde64528
 SHA1: 0356ae1eae8f4300748bc9be20657b485c7024ee
@@ -1336,7 +1336,7 @@ Breaks: libksba-dev
 Depends: libgpg-error
 Replaces: libksba-dev
 Description: Library for using X.509 certificates and CMS (Cryptographic Message Syntax) easily accessible
-Filename: dists/stable/main/binary-aarch64/libksba_1.6.7-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libksba_1.6.7-1_aarch64.deb
 Size: 105660
 MD5Sum: fb071bf0f2ffdfb18929ee12e20a6f2b
 SHA1: f307c72ffe63457307f17b33c01c0c6cea4904af
@@ -1352,7 +1352,7 @@ Homepage: https://lz4.github.io/lz4/
 Breaks: liblz4-dev
 Replaces: liblz4-dev
 Description: Fast LZ compression algorithm library
-Filename: dists/stable/main/binary-aarch64/liblz4_1.10.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/liblz4_1.10.0_aarch64.deb
 Size: 84656
 MD5Sum: 5a8e12ca6e4f5518ae796cfba1daa1ed
 SHA1: 08084c452399499335f6e36b9f242e87ccbc397f
@@ -1367,7 +1367,7 @@ Version: 5.6.3
 Homepage: https://tukaani.org/xz/
 Depends: liblzma (= 5.6.3)
 Description: Static libraries for liblzma
-Filename: dists/stable/main/binary-aarch64/liblzma-static_5.6.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/liblzma-static_5.6.3_aarch64.deb
 Size: 89452
 MD5Sum: ad73a89ca330f7f112492b586f198224
 SHA1: e17387f03b63e85b2d5b424dd3302a261956b13f
@@ -1384,7 +1384,7 @@ Breaks: liblzma-dev
 Essential: yes
 Replaces: liblzma-dev
 Description: XZ-format compression library
-Filename: dists/stable/main/binary-aarch64/liblzma_5.6.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/liblzma_5.6.3_aarch64.deb
 Size: 188816
 MD5Sum: cc031c23deeff4c5e1dd61d2ca855da7
 SHA1: 0e8940adb25f4209c538064960e97526d5b5e6cc
@@ -1399,7 +1399,7 @@ Version: 1.1.0
 Homepage: https://www.hadrons.org/software/libmd/
 Depends: libmd (= 1.1.0)
 Description: Static libraries for libmd
-Filename: dists/stable/main/binary-aarch64/libmd-static_1.1.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libmd-static_1.1.0_aarch64.deb
 Size: 17872
 MD5Sum: 16e27c35a692552875c0982fc884fc6e
 SHA1: 3c24567d2b9bede7d3d6ef3e8efcc1c5dc2af9b6
@@ -1413,7 +1413,7 @@ Maintainer: @termux
 Version: 1.1.0
 Homepage: https://www.hadrons.org/software/libmd/
 Description: Message Digest functions from BSD systems
-Filename: dists/stable/main/binary-aarch64/libmd_1.1.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libmd_1.1.0_aarch64.deb
 Size: 40532
 MD5Sum: ee8f0a630a25bf209183656f910d2480
 SHA1: f0b960363711e93ecdbb479ae75e782eefea2920
@@ -1428,7 +1428,7 @@ Version: 2.40.2-1
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Depends: libblkid, libsmartcols
 Description: Library for (un)mounting filesystems
-Filename: dists/stable/main/binary-aarch64/libmount_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libmount_2.40.2-1_aarch64.deb
 Size: 146288
 MD5Sum: 3f4e786ae973d93436d82605373681df
 SHA1: 8decb5713fb3247f46066f1578133ade723801cc
@@ -1443,7 +1443,7 @@ Version: 4.2.1
 Homepage: https://www.mpfr.org/
 Depends: libmpfr (= 4.2.1)
 Description: Static libraries for libmpfr
-Filename: dists/stable/main/binary-aarch64/libmpfr-static_4.2.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libmpfr-static_4.2.1_aarch64.deb
 Size: 208484
 MD5Sum: 7b5900f8eb8f3012e4ae364113cd7371
 SHA1: 222fac39c23594a3d15f5d205cd5630d78337b6d
@@ -1460,7 +1460,7 @@ Breaks: libmpfr-dev
 Depends: libgmp
 Replaces: libmpfr-dev
 Description: C library for multiple-precision floating-point computations with correct rounding
-Filename: dists/stable/main/binary-aarch64/libmpfr_4.2.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libmpfr_4.2.1_aarch64.deb
 Size: 271700
 MD5Sum: dc741902818027c69907159f339b2230
 SHA1: 9cc48d30dc5cc9f8873d744ba696178306c0334d
@@ -1475,7 +1475,7 @@ Version: 3.10
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Depends: libnettle (= 3.10)
 Description: Static libraries for libnettle
-Filename: dists/stable/main/binary-aarch64/libnettle-static_3.10_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnettle-static_3.10_aarch64.deb
 Size: 684476
 MD5Sum: f1852e814c50b60a738cb5574e9929b4
 SHA1: df163747f20166ac8248c55aad0bf8c3d57d630c
@@ -1492,7 +1492,7 @@ Breaks: libnettle-dev
 Depends: libgmp
 Replaces: libnettle-dev
 Description: Cryptographic library that is designed to fit easily in more or less any context
-Filename: dists/stable/main/binary-aarch64/libnettle_3.10_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnettle_3.10_aarch64.deb
 Size: 407056
 MD5Sum: 0bcb8eb9a179cc29856a99f8ff2a209d
 SHA1: dfdc869603f3c43b1fa09c657a6ed82e3b848a3b
@@ -1507,7 +1507,7 @@ Version: 1.64.0
 Homepage: https://nghttp2.org/
 Depends: libnghttp2 (= 1.64.0)
 Description: Static libraries for libnghttp2
-Filename: dists/stable/main/binary-aarch64/libnghttp2-static_1.64.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnghttp2-static_1.64.0_aarch64.deb
 Size: 67236
 MD5Sum: 9fd6942ad9e3d48b1ebaa116ed18057e
 SHA1: a5b4688907ccb299785e11b8033cb1860982a79a
@@ -1523,7 +1523,7 @@ Homepage: https://nghttp2.org/
 Breaks: libnghttp2-dev
 Replaces: libnghttp2-dev
 Description: nghttp HTTP 2.0 library
-Filename: dists/stable/main/binary-aarch64/libnghttp2_1.64.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnghttp2_1.64.0_aarch64.deb
 Size: 99056
 MD5Sum: 462836cb973350ca5604263c274ec7de
 SHA1: fcf510fd059ffe9b5a9c9bf99dca443966160b9a
@@ -1538,7 +1538,7 @@ Version: 1.6.0
 Homepage: https://nghttp2.org/nghttp3/
 Depends: libnghttp3 (= 1.6.0)
 Description: Static libraries for libnghttp3
-Filename: dists/stable/main/binary-aarch64/libnghttp3-static_1.6.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnghttp3-static_1.6.0_aarch64.deb
 Size: 59744
 MD5Sum: b0a7a12bf15e897d15c22c08f6e6bd1f
 SHA1: 1285008e7c8b42fd07b2c52a3351d79cc7e1768a
@@ -1553,7 +1553,7 @@ Version: 1.6.0
 Homepage: https://nghttp2.org/nghttp3/
 Essential: yes
 Description: HTTP/3 library written in C
-Filename: dists/stable/main/binary-aarch64/libnghttp3_1.6.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnghttp3_1.6.0_aarch64.deb
 Size: 63392
 MD5Sum: 0f8c0f15355ec739d25ce678a0eabdbd
 SHA1: 861df1f80e6e43cedfe871d2d8db43cee53fb673
@@ -1568,7 +1568,7 @@ Version: 1.6-2
 Homepage: https://www.gnupg.org/related_software/npth/
 Depends: libnpth (= 1.6-2)
 Description: Static libraries for libnpth
-Filename: dists/stable/main/binary-aarch64/libnpth-static_1.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnpth-static_1.6-2_aarch64.deb
 Size: 4688
 MD5Sum: 871f8ea15b9bb9b72c3ac7e96fb0aef0
 SHA1: 9db1433d1a28cd7571e6d53ddca15c0274290ae2
@@ -1584,7 +1584,7 @@ Homepage: https://www.gnupg.org/related_software/npth/
 Breaks: libnpth-dev
 Replaces: libnpth-dev
 Description: New GNU Portable Threads Library
-Filename: dists/stable/main/binary-aarch64/libnpth_1.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libnpth_1.6-2_aarch64.deb
 Size: 11216
 MD5Sum: 0899c4860f65a42033efe450cf6781a6
 SHA1: f151c435fb6ebdd1899ddf74e94b241f9246bc23
@@ -1599,7 +1599,7 @@ Version: 1.6.44
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Depends: libpng (= 1.6.44)
 Description: Static libraries for libpng
-Filename: dists/stable/main/binary-aarch64/libpng-static_1.6.44_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libpng-static_1.6.44_aarch64.deb
 Size: 87752
 MD5Sum: b13ea0a1248da26425d42fe71026f44d
 SHA1: 8addbb80f7de6ebaf6f0ed38801621b588bf6105
@@ -1616,7 +1616,7 @@ Breaks: libpng-dev
 Depends: zlib
 Replaces: libpng-dev
 Description: Official PNG reference library
-Filename: dists/stable/main/binary-aarch64/libpng_1.6.44_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libpng_1.6.44_aarch64.deb
 Size: 195780
 MD5Sum: c35958a78d54f432feff114e90044458
 SHA1: 54b8bdae5e09190ca6298c0314d71bffa5f9e281
@@ -1632,7 +1632,7 @@ Homepage: https://en.wikipedia.org/wiki/Util-linux
 Breaks: util-linux (<< 2.38.1-1)
 Replaces: util-linux (<< 2.38.1-1)
 Description: Library for smart adaptive formatting of tabular data
-Filename: dists/stable/main/binary-aarch64/libsmartcols_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libsmartcols_2.40.2-1_aarch64.deb
 Size: 97984
 MD5Sum: f5247bf3dbb83d584e3e684ca385b4fb
 SHA1: 4410b82d42565a33fb438666da4a1ac6e0f92264
@@ -1647,7 +1647,7 @@ Version: 3.46.1
 Homepage: https://www.sqlite.org
 Depends: libsqlite (= 3.46.1)
 Description: Static libraries for libsqlite
-Filename: dists/stable/main/binary-aarch64/libsqlite-static_3.46.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libsqlite-static_3.46.1_aarch64.deb
 Size: 517236
 MD5Sum: ede1c8b0f99cf8bf2eacb3141ae7871c
 SHA1: 4b4be7f691e0c140b581eee72741a5f4627f5c71
@@ -1663,7 +1663,7 @@ Homepage: https://www.sqlite.org
 Depends: tcl, libsqlite (= 3.46.1)
 Breaks: sqlcipher (<< 4.4.2-1), tcl (<< 8.6.10-4)
 Description: tcl bindings for SQLite
-Filename: dists/stable/main/binary-aarch64/libsqlite-tcl_3.46.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libsqlite-tcl_3.46.1_aarch64.deb
 Size: 17396
 MD5Sum: c988c82371b5a238d2b83b62407535c5
 SHA1: be7496233690c0a6d78e5f8c4b19c54e9d541cec
@@ -1680,7 +1680,7 @@ Breaks: libsqlite-dev
 Depends: zlib
 Replaces: libsqlite-dev
 Description: Library implementing a self-contained and transactional SQL database engine
-Filename: dists/stable/main/binary-aarch64/libsqlite_3.46.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libsqlite_3.46.1_aarch64.deb
 Size: 611484
 MD5Sum: 4dca44afa7437b7a3d5c5de92b6208f2
 SHA1: e85bf93e2af158d7a74998d386dd1837744f2318
@@ -1695,7 +1695,7 @@ Version: 1.11.1
 Homepage: https://www.libssh2.org
 Depends: libssh2 (= 1.11.1)
 Description: Static libraries for libssh2
-Filename: dists/stable/main/binary-aarch64/libssh2-static_1.11.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libssh2-static_1.11.1_aarch64.deb
 Size: 110828
 MD5Sum: 831cc2d021aa130d1edd5d0d713b209d
 SHA1: 68edd8e01447bd0d0d2c2fa399b8cedf3ac4cd7e
@@ -1712,7 +1712,7 @@ Breaks: libssh2-dev
 Depends: openssl, zlib
 Replaces: libssh2-dev
 Description: Client-side library implementing the SSH2 protocol
-Filename: dists/stable/main/binary-aarch64/libssh2_1.11.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libssh2_1.11.1_aarch64.deb
 Size: 218520
 MD5Sum: 903413edfc372e4d6e2d2b90a830b63b
 SHA1: f8fb8364d7562be344cb2652f0e8aeca298cc7a5
@@ -1727,7 +1727,7 @@ Version: 2.4.2
 Homepage: https://talloc.samba.org/talloc/doc/html/index.html
 Depends: libtalloc (= 2.4.2)
 Description: Static libraries for libtalloc
-Filename: dists/stable/main/binary-aarch64/libtalloc-static_2.4.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libtalloc-static_2.4.2_aarch64.deb
 Size: 11272
 MD5Sum: 0097aafca21d4823d278e8289da93ecf
 SHA1: 8a1cdf9d13c47cf2bce438972b2cc56f7cab1be4
@@ -1743,7 +1743,7 @@ Homepage: https://talloc.samba.org/talloc/doc/html/index.html
 Breaks: libtalloc-dev
 Replaces: libtalloc-dev
 Description: Hierarchical, reference counted memory pool system with destructors
-Filename: dists/stable/main/binary-aarch64/libtalloc_2.4.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libtalloc_2.4.2_aarch64.deb
 Size: 32972
 MD5Sum: 1c2a72cd376b2bc2af740c538861b620
 SHA1: 3961bfd39ebd88e31eef2df7ff5c59ac27219076
@@ -1758,7 +1758,7 @@ Version: 1.3.6
 Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
 Depends: libtirpc (= 1.3.6)
 Description: Static libraries for libtirpc
-Filename: dists/stable/main/binary-aarch64/libtirpc-static_1.3.6_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libtirpc-static_1.3.6_aarch64.deb
 Size: 69576
 MD5Sum: daee0bf718de0789d260f970409cd46d
 SHA1: facdd4a1e98ddee3f2e030eb5dd7c26ea1333c21
@@ -1772,7 +1772,7 @@ Maintainer: @termux
 Version: 1.3.6
 Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
 Description: Transport Independent RPC library
-Filename: dists/stable/main/binary-aarch64/libtirpc_1.3.6_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libtirpc_1.3.6_aarch64.deb
 Size: 124064
 MD5Sum: 00a226ccf5bdcecf17130891f6b9ba61
 SHA1: 81339b5a7f865496aa2664d536ff4e6426c41654
@@ -1787,7 +1787,7 @@ Version: 1.22.0
 Homepage: https://unbound.net/
 Depends: libunbound (= 1.22.0)
 Description: Static libraries for libunbound
-Filename: dists/stable/main/binary-aarch64/libunbound-static_1.22.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libunbound-static_1.22.0_aarch64.deb
 Size: 435252
 MD5Sum: 60ec056daade06813b028b98c6ef9650
 SHA1: 48a57a52bd3ac5cbfa96c9a088b08a8d200ca4ed
@@ -1804,7 +1804,7 @@ Breaks: unbound (<< 1.17.1-1)
 Depends: libevent, libnghttp2, openssl, resolv-conf
 Replaces: unbound (<< 1.17.1-1)
 Description: A validating, recursive, caching DNS resolver
-Filename: dists/stable/main/binary-aarch64/libunbound_1.22.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libunbound_1.22.0_aarch64.deb
 Size: 360556
 MD5Sum: ded0d1e8051b55a8827cb3091854231d
 SHA1: 3b490fb85fc1d9fa2053f12d20a6bd636af1b82b
@@ -1819,7 +1819,7 @@ Version: 1.3
 Homepage: https://www.gnu.org/software/libunistring/
 Depends: libunistring (= 1.3)
 Description: Static libraries for libunistring
-Filename: dists/stable/main/binary-aarch64/libunistring-static_1.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libunistring-static_1.3_aarch64.deb
 Size: 470420
 MD5Sum: 8cad024db55a6abe5a63fb600ea705e3
 SHA1: ba9c5a598f897f15e5e71a3e99b8654c4f98021c
@@ -1836,7 +1836,7 @@ Breaks: libunistring-dev
 Depends: libandroid-support, libiconv
 Replaces: libunistring-dev
 Description: Library providing functions for manipulating Unicode strings
-Filename: dists/stable/main/binary-aarch64/libunistring_1.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libunistring_1.3_aarch64.deb
 Size: 541204
 MD5Sum: 63b4d05a90092bc0bbeef2e9bc9494eb
 SHA1: a3389ed59537029a0675ec688ab614738a8c9e79
@@ -1851,7 +1851,7 @@ Version: 1.0.27
 Homepage: https://libusb.info/
 Depends: libusb (= 1.0.27)
 Description: Static libraries for libusb
-Filename: dists/stable/main/binary-aarch64/libusb-static_1.0.27_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libusb-static_1.0.27_aarch64.deb
 Size: 46084
 MD5Sum: 6fdf1cfe7125e958f0adf50ebb94c679
 SHA1: 3f3831eabea1a689a3d1b0a6b68e93ec69961c67
@@ -1867,7 +1867,7 @@ Homepage: https://libusb.info/
 Breaks: libusb-dev
 Replaces: libusb-dev
 Description: A C library that provides generic access to USB devices
-Filename: dists/stable/main/binary-aarch64/libusb_1.0.27_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libusb_1.0.27_aarch64.deb
 Size: 57328
 MD5Sum: 49efe14d8f315345e9dc26d6ab9afd22
 SHA1: d07f73184138c0d2eb6904679fd3eeffc9a95bc8
@@ -1883,7 +1883,7 @@ Homepage: https://en.wikipedia.org/wiki/Util-linux
 Breaks: libuuid-dev
 Replaces: libuuid-dev
 Description: Library for handling universally unique identifiers
-Filename: dists/stable/main/binary-aarch64/libuuid_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libuuid_2.40.2-1_aarch64.deb
 Size: 14948
 MD5Sum: 2087b0f36a7e7f00e32a47a6a7d3d582
 SHA1: 8e979a660061838e97d3347a4f9f1ddcd4d78944
@@ -1898,7 +1898,7 @@ Version: 1.8.10
 Homepage: https://xorg.freedesktop.org/
 Depends: libx11 (= 1.8.10)
 Description: Static libraries for libx11
-Filename: dists/stable/main/binary-aarch64/libx11-static_1.8.10_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libx11-static_1.8.10_aarch64.deb
 Size: 567808
 MD5Sum: ba6350f4adba5484080a6baed44a1f6d
 SHA1: 2582ccaed2a5b3520bd895e7631024b699de3d82
@@ -1914,7 +1914,7 @@ Homepage: https://xorg.freedesktop.org/
 Depends: libandroid-support, libxcb
 Recommends: xorg-xauth
 Description: X11 client-side library
-Filename: dists/stable/main/binary-aarch64/libx11_1.8.10_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libx11_1.8.10_aarch64.deb
 Size: 1912556
 MD5Sum: cf9b5bbceea0efb27e2396f6e4d029e5
 SHA1: 74e7159403ff4e1b390d2c51eb33b9697d0ef810
@@ -1929,7 +1929,7 @@ Version: 1.0.11
 Homepage: https://xorg.freedesktop.org/
 Depends: libxau (= 1.0.11)
 Description: Static libraries for libxau
-Filename: dists/stable/main/binary-aarch64/libxau-static_1.0.11_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxau-static_1.0.11_aarch64.deb
 Size: 5088
 MD5Sum: 4cc6227df3e0f4dbb2bc729e18d38db3
 SHA1: ddfc8b6f00e02ea6a11777a321f5936d37c2db4e
@@ -1943,7 +1943,7 @@ Maintainer: @termux
 Version: 1.0.11
 Homepage: https://xorg.freedesktop.org/
 Description: X11 authorisation library
-Filename: dists/stable/main/binary-aarch64/libxau_1.0.11_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxau_1.0.11_aarch64.deb
 Size: 8432
 MD5Sum: a10788a422833fa833db98708f18bf1e
 SHA1: 1dda5e582d31b192b9b93f19b79af4817bfc5b8a
@@ -1958,7 +1958,7 @@ Version: 1.17.0
 Homepage: https://xcb.freedesktop.org/
 Depends: libxcb (= 1.17.0)
 Description: Static libraries for libxcb
-Filename: dists/stable/main/binary-aarch64/libxcb-static_1.17.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxcb-static_1.17.0_aarch64.deb
 Size: 159352
 MD5Sum: d03cce4c75b4afb4931b1daa835e2e1d
 SHA1: 6b0f0624866797466b285f3b7380c88c7cf3600d
@@ -1974,7 +1974,7 @@ Homepage: https://xcb.freedesktop.org/
 Depends: libxau, libxdmcp
 Recommends: xorg-xauth
 Description: X11 client-side library
-Filename: dists/stable/main/binary-aarch64/libxcb_1.17.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxcb_1.17.0_aarch64.deb
 Size: 914408
 MD5Sum: 16ad06fca618dfee2a9670f8e5184daf
 SHA1: afa6beb8a0acb86fca679dbbf6c277b7fd75c2de
@@ -1989,7 +1989,7 @@ Version: 1.1.5
 Homepage: https://xorg.freedesktop.org/
 Depends: libxdmcp (= 1.1.5)
 Description: Static libraries for libxdmcp
-Filename: dists/stable/main/binary-aarch64/libxdmcp-static_1.1.5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxdmcp-static_1.1.5_aarch64.deb
 Size: 8024
 MD5Sum: d3f02747efc0ebbb9abeee45f4a67b21
 SHA1: ae2201ca0d0a5a6410fcfe6657b9736f974624f4
@@ -2003,7 +2003,7 @@ Maintainer: @termux
 Version: 1.1.5
 Homepage: https://xorg.freedesktop.org/
 Description: X11 Display Manager Control Protocol library
-Filename: dists/stable/main/binary-aarch64/libxdmcp_1.1.5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxdmcp_1.1.5_aarch64.deb
 Size: 24432
 MD5Sum: b5fe698195425f08d2996fbaa570137c
 SHA1: ac96995b336efe64d743a9b0b4c5f34596a439ef
@@ -2018,7 +2018,7 @@ Version: 1.3.6
 Homepage: https://xorg.freedesktop.org/
 Depends: libxext (= 1.3.6)
 Description: Static libraries for libxext
-Filename: dists/stable/main/binary-aarch64/libxext-static_1.3.6_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxext-static_1.3.6_aarch64.deb
 Size: 26104
 MD5Sum: 6d836737968a1f840ac5c60c4fabbc71
 SHA1: 53306a8f9c9d558894fbfc65d3d75e708a4bcea9
@@ -2033,7 +2033,7 @@ Version: 1.3.6
 Homepage: https://xorg.freedesktop.org/
 Depends: libx11
 Description: X11 miscellaneous extensions library
-Filename: dists/stable/main/binary-aarch64/libxext_1.3.6_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxext_1.3.6_aarch64.deb
 Size: 97740
 MD5Sum: 5c055a2d47d9319efb64cb640da14ece
 SHA1: 3514c3710407ce8ba354a5f1b9f3c5dcc8cf5c0c
@@ -2048,7 +2048,7 @@ Version: 2.3.8
 Homepage: https://xorg.freedesktop.org/
 Depends: libxft (= 2.3.8)
 Description: Static libraries for libxft
-Filename: dists/stable/main/binary-aarch64/libxft-static_2.3.8_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxft-static_2.3.8_aarch64.deb
 Size: 36484
 MD5Sum: dc296b95024657b06b25e2c64c0d650e
 SHA1: 22fc7ac3415c865afcd8285a7591a24d19da01cb
@@ -2063,7 +2063,7 @@ Version: 2.3.8
 Homepage: https://xorg.freedesktop.org/
 Depends: fontconfig, freetype, libx11, libxrender
 Description: FreeType-based font drawing library for X
-Filename: dists/stable/main/binary-aarch64/libxft_2.3.8_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxft_2.3.8_aarch64.deb
 Size: 47964
 MD5Sum: 24cfb4bddbebdb1685c84d0b07adcd9f
 SHA1: 94e6b36993e92a4e5d50ae2a81c17d9fcd217c6c
@@ -2078,7 +2078,7 @@ Version: 2.13.4-1
 Homepage: http://www.xmlsoft.org
 Depends: libxml2-python, libxml2 (= 2.13.4-1)
 Description: Static libraries for libxml2-python
-Filename: dists/stable/main/binary-aarch64/libxml2-python-static_2.13.4-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxml2-python-static_2.13.4-1_aarch64.deb
 Size: 73900
 MD5Sum: d4aa001545b2ef7ceaa8ba1fa2bb5660
 SHA1: 9f209ea8cfe143cdbe383b28a19d612685279850
@@ -2093,7 +2093,7 @@ Version: 2.13.4-1
 Homepage: http://www.xmlsoft.org
 Depends: python, libxml2 (= 2.13.4-1)
 Description: Python bindings for libxml2
-Filename: dists/stable/main/binary-aarch64/libxml2-python_2.13.4-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxml2-python_2.13.4-1_aarch64.deb
 Size: 194048
 MD5Sum: bf99852f59ce89ec47c140bce14f3eaf
 SHA1: 34c2bf3c0e9b584818faae0daeb2e4706b76cf61
@@ -2108,7 +2108,7 @@ Version: 2.13.4-1
 Homepage: http://www.xmlsoft.org
 Depends: libxml2 (= 2.13.4-1)
 Description: Static libraries for libxml2
-Filename: dists/stable/main/binary-aarch64/libxml2-static_2.13.4-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxml2-static_2.13.4-1_aarch64.deb
 Size: 454788
 MD5Sum: f687604dbd89c981a40e1c50f2deea24
 SHA1: 3bb9a64f9435164b9e7acb790f533e1e9bd982e6
@@ -2123,7 +2123,7 @@ Version: 2.13.4-1
 Homepage: http://www.xmlsoft.org
 Depends: libxml2 (= 2.13.4-1)
 Description: XML utilities
-Filename: dists/stable/main/binary-aarch64/libxml2-utils_2.13.4-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxml2-utils_2.13.4-1_aarch64.deb
 Size: 30860
 MD5Sum: 2228a76ae2cb16964d7ad14c0aeadf02
 SHA1: abdfbdcfe52678107ef00205a30ffb020d54716b
@@ -2140,7 +2140,7 @@ Breaks: libxml2-dev
 Depends: libiconv, liblzma, zlib
 Replaces: libxml2-dev
 Description: Library for parsing XML documents
-Filename: dists/stable/main/binary-aarch64/libxml2_2.13.4-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxml2_2.13.4-1_aarch64.deb
 Size: 467060
 MD5Sum: ed4ff7c0c397ae5113c179c1c290b333
 SHA1: d5651fb00cfcb71c59c3b5fbbabca83da73d5132
@@ -2155,7 +2155,7 @@ Version: 0.9.11
 Homepage: https://xorg.freedesktop.org/
 Depends: libxrender (= 0.9.11)
 Description: Static libraries for libxrender
-Filename: dists/stable/main/binary-aarch64/libxrender-static_0.9.11_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxrender-static_0.9.11_aarch64.deb
 Size: 15340
 MD5Sum: 8d092e6f18ecfb73290e6b7c1836d3d1
 SHA1: 68ca19e58311c04ef1d6b1d5f3d3268af8bace2f
@@ -2170,7 +2170,7 @@ Version: 0.9.11
 Homepage: https://xorg.freedesktop.org/
 Depends: libx11
 Description: X Rendering Extension client library
-Filename: dists/stable/main/binary-aarch64/libxrender_0.9.11_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxrender_0.9.11_aarch64.deb
 Size: 24092
 MD5Sum: 4967acf9d02eddfdc3c09b128d6ebed4
 SHA1: 8309963c09ba06a1518eb9bc56d2d0d6d54a98bd
@@ -2187,7 +2187,7 @@ Breaks: libxslt-dev
 Depends: libgcrypt, libgpg-error, libxml2, libandroid-glob
 Replaces: libxslt-dev
 Description: XSLT processing library
-Filename: dists/stable/main/binary-aarch64/libxslt_1.1.42-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxslt_1.1.42-1_aarch64.deb
 Size: 230344
 MD5Sum: 7cf1c3411525f10d2c3bcccef4101b89
 SHA1: 3fd70639ad66c2f97942f1115c0fc53c99b02e74
@@ -2202,7 +2202,7 @@ Version: 1.2.4
 Homepage: https://xorg.freedesktop.org/
 Depends: libxss (= 1.2.4)
 Description: Static libraries for libxss
-Filename: dists/stable/main/binary-aarch64/libxss-static_1.2.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxss-static_1.2.4_aarch64.deb
 Size: 4416
 MD5Sum: 9810bcbf475286d426cfdb569d803de7
 SHA1: ddbeaee63d2df4853ba2f97a70ded58237e9016a
@@ -2217,7 +2217,7 @@ Version: 1.2.4
 Homepage: https://xorg.freedesktop.org/
 Depends: libx11, libxau, libxcb, libxdmcp, libxext
 Description: X11 Screen Saver extension library
-Filename: dists/stable/main/binary-aarch64/libxss_1.2.4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/libxss_1.2.4_aarch64.deb
 Size: 11888
 MD5Sum: 405f330445dd83b30cda00b987861dbb
 SHA1: 0ba075e627f46228365e416c9d83fbcbc53232c1
@@ -2232,7 +2232,7 @@ Version: 4.99.3
 Homepage: https://github.com/lsof-org/lsof
 Depends: lsof (= 4.99.3)
 Description: Static libraries for lsof
-Filename: dists/stable/main/binary-aarch64/lsof-static_4.99.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/lsof-static_4.99.3_aarch64.deb
 Size: 55616
 MD5Sum: e1df24a912b61a96019c354c335279c0
 SHA1: 218355c5c5c8e2ff711f1beabdc7c9ff754f4fcd
@@ -2247,7 +2247,7 @@ Version: 4.99.3
 Homepage: https://github.com/lsof-org/lsof
 Depends: libandroid-support, libtirpc
 Description: Lists open files for running Unix processes
-Filename: dists/stable/main/binary-aarch64/lsof_4.99.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/lsof_4.99.3_aarch64.deb
 Size: 121984
 MD5Sum: af3826cc9d1e0db24ff6e61b0e3e8adb
 SHA1: a63dc87dd6e91abaa1a0934569b93a42316c04fd
@@ -2262,7 +2262,7 @@ Version: 1.10.0
 Homepage: https://lz4.github.io/lz4/
 Depends: liblz4 (= 1.10.0)
 Description: Fast LZ compression algorithm tool
-Filename: dists/stable/main/binary-aarch64/lz4_1.10.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/lz4_1.10.0_aarch64.deb
 Size: 90832
 MD5Sum: 248b9258fc820ba71f0cf65a8507ba17
 SHA1: 91c99ead1ec6b403528d417bd9b059c31eba2280
@@ -2279,7 +2279,7 @@ Breaks: make-dev
 Conflicts: make-guile
 Replaces: make-dev
 Description: Tool to control the generation of non-source files from source files
-Filename: dists/stable/main/binary-aarch64/make_4.4.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/make_4.4.1_aarch64.deb
 Size: 240412
 MD5Sum: 23a0489b57206c2b50a34d40185f2e92
 SHA1: e606f2fa38e422deff1df699d78488cf71fa730e
@@ -2295,7 +2295,7 @@ Homepage: https://en.wikipedia.org/wiki/Util-linux
 Depends: libblkid, libsmartcols, libmount
 Breaks: termux-tools (<= 1.34.1)
 Description: Utilities for (un)mounting filesystems
-Filename: dists/stable/main/binary-aarch64/mount-utils_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/mount-utils_2.40.2-1_aarch64.deb
 Size: 132912
 MD5Sum: 9d9be3200cad6d2652625881a13c767e
 SHA1: 1f3317b7a5af865848dd5088f8e23dff38fbbef8
@@ -2310,7 +2310,7 @@ Version: 8.2
 Homepage: https://www.nano-editor.org/
 Depends: libandroid-support, ncurses
 Description: Small, free and friendly text editor
-Filename: dists/stable/main/binary-aarch64/nano_8.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/nano_8.2_aarch64.deb
 Size: 227312
 MD5Sum: 855ed84ed8b915587fcce9c6a4c5d1dd
 SHA1: 71add9349851a27c3c6fe7cf6944340ac28ce5e7
@@ -2325,7 +2325,7 @@ Version: 6.5.20240831-2
 Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.5.20240831-2)
 Description: Static libraries for ncurses
-Filename: dists/stable/main/binary-aarch64/ncurses-static_6.5.20240831-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses-static_6.5.20240831-2_aarch64.deb
 Size: 154100
 MD5Sum: bb309a2c8a73c3c0107837c2838427fd
 SHA1: d4d9041683fda8a1621f6b18dcbd7902c0352e3b
@@ -2340,7 +2340,7 @@ Version: 6.5.20240831-2
 Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses-ui-libs, ncurses (= 6.5.20240831-2)
 Description: Static libraries for terminal user interfaces based on ncurses
-Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs-static_6.5.20240831-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs-static_6.5.20240831-2_aarch64.deb
 Size: 39612
 MD5Sum: 26496ca93fa0f067ba5a54a0cb797425
 SHA1: 77453f5880942c7ad9260867c6a6d5a723b0600a
@@ -2357,7 +2357,7 @@ Depends: ncurses (= 6.5.20240831-2)
 Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
 Description: Libraries for terminal user interfaces based on ncurses
-Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs_6.5.20240831-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses-ui-libs_6.5.20240831-2_aarch64.deb
 Size: 32952
 MD5Sum: fb32327fbd3bbfa6781c71b347ba7919
 SHA1: 3a1e4c1a139fce5e1ce72cfea1f39afda326ec3d
@@ -2372,7 +2372,7 @@ Version: 6.5.20240831-2
 Homepage: https://invisible-island.net/ncurses/
 Depends: ncurses (= 6.5.20240831-2)
 Description: Tools for working with terminals
-Filename: dists/stable/main/binary-aarch64/ncurses-utils_6.5.20240831-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses-utils_6.5.20240831-2_aarch64.deb
 Size: 87800
 MD5Sum: 42b3877415493f7dc6bdb7d138f6b731
 SHA1: f54badd6603dfeda676a4bf620c1e056ea52444b
@@ -2388,7 +2388,7 @@ Homepage: https://invisible-island.net/ncurses/
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Description: Library for text-based user interfaces in a terminal-independent manner
-Filename: dists/stable/main/binary-aarch64/ncurses_6.5.20240831-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/ncurses_6.5.20240831-2_aarch64.deb
 Size: 537788
 MD5Sum: d743eab09eaa081cae3e1306a99195ee
 SHA1: cbce2ab914b1e448d50f2088d7eb8dd47157d03e
@@ -2402,7 +2402,7 @@ Maintainer: @termux
 Version: 2.10.0
 Homepage: http://net-tools.sourceforge.net/
 Description: Configuration tools for Linux networking
-Filename: dists/stable/main/binary-aarch64/net-tools_2.10.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/net-tools_2.10.0_aarch64.deb
 Size: 118392
 MD5Sum: 30e83ea8361c5ac9e055d5fff31c4ca0
 SHA1: 6acb26b85063ac719994e667eee975cd47d99839
@@ -2417,7 +2417,7 @@ Version: 3.10
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Depends: libnettle (= 3.10)
 Description: Low level cryptographic tools
-Filename: dists/stable/main/binary-aarch64/nettle_3.10_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/nettle_3.10_aarch64.deb
 Size: 18156
 MD5Sum: bf4d542e3febce678e850a924491eb83
 SHA1: 8bed13cf6da61a1fe7088e16c31ea2ac7d0379c7
@@ -2432,7 +2432,7 @@ Version: 1:3.3.2
 Homepage: https://www.openssl.org/
 Depends: openssl (= 1:3.3.2)
 Description: Static libraries for openssl
-Filename: dists/stable/main/binary-aarch64/openssl-static_1:3.3.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/openssl-static_1:3.3.2_aarch64.deb
 Size: 2437768
 MD5Sum: 85b5af1c88fcd50865b10b07d0a65cc0
 SHA1: 7dc6bbaa0c10f2937afdc407735e85ecadbb8b71
@@ -2447,7 +2447,7 @@ Version: 1:3.3.2
 Homepage: https://www.openssl.org/
 Depends: openssl (= 1:3.3.2)
 Description: The openssl command line cryptographic tool
-Filename: dists/stable/main/binary-aarch64/openssl-tool_1:3.3.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/openssl-tool_1:3.3.2_aarch64.deb
 Size: 262016
 MD5Sum: 95cceba33dd394f8135ed0570d247538
 SHA1: d58eef1b52d576f31bd3878e7e20962097e70d15
@@ -2465,7 +2465,7 @@ Depends: ca-certificates, zlib
 Conflicts: libcurl (<< 7.61.0-1)
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
-Filename: dists/stable/main/binary-aarch64/openssl_1:3.3.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/openssl_1:3.3.2_aarch64.deb
 Size: 2316068
 MD5Sum: bd56979c74ec8487a705fd0728f60aa9
 SHA1: 33608e593cead3cecae77e6fcdacefcb5aa43408
@@ -2479,7 +2479,7 @@ Maintainer: @termux
 Version: 2.7.6-4
 Homepage: https://savannah.gnu.org/projects/patch/
 Description: GNU patch which applies diff files to create patched files
-Filename: dists/stable/main/binary-aarch64/patch_2.7.6-4_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/patch_2.7.6-4_aarch64.deb
 Size: 81360
 MD5Sum: beb30d1d1217339465228e4e90b7dcd1
 SHA1: 4c6baef582a2c63fc3243161e0fed3d272f8ab9b
@@ -2494,7 +2494,7 @@ Version: 10.44
 Homepage: https://www.pcre.org
 Depends: pcre2 (= 10.44)
 Description: Static libraries for pcre2
-Filename: dists/stable/main/binary-aarch64/pcre2-static_10.44_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pcre2-static_10.44_aarch64.deb
 Size: 340168
 MD5Sum: b7bcdbeee40f6caff0cc782c9a1ae60b
 SHA1: aae144907129c4fad08cacd41979ceed6bf48855
@@ -2510,7 +2510,7 @@ Homepage: https://www.pcre.org
 Breaks: pcre2-dev
 Replaces: pcre2-dev
 Description: Perl 5 compatible regular expression library
-Filename: dists/stable/main/binary-aarch64/pcre2_10.44_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pcre2_10.44_aarch64.deb
 Size: 886432
 MD5Sum: 2ff60ff8067f788df2330a955527c8c1
 SHA1: 778d431a2294bb74ebaab58292b9a7fa029579ca
@@ -2525,7 +2525,7 @@ Version: 10.44
 Homepage: https://www.pcre.org
 Depends: pcre2 (= 10.44)
 Description: A grep with Perl-compatible regular expressions
-Filename: dists/stable/main/binary-aarch64/pcre2grep_10.44_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pcre2grep_10.44_aarch64.deb
 Size: 33640
 MD5Sum: c94a7040fa9a2b95d588ce5a1802768a
 SHA1: 20959aede9d1fa610820aed71d33dd503f5c4f80
@@ -2540,7 +2540,7 @@ Version: 5.38.2-3
 Homepage: https://www.perl.org/
 Depends: libandroid-utimes
 Description: Capable, feature-rich programming language
-Filename: dists/stable/main/binary-aarch64/perl_5.38.2-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/perl_5.38.2-3_aarch64.deb
 Size: 14242104
 MD5Sum: 2b0da8923d9b4b29ba6add1ef8fc1e6c
 SHA1: 3a39237cc523ac32a566ab486436d6934312a393
@@ -2555,7 +2555,7 @@ Version: 1.3.1-1
 Homepage: https://www.gnupg.org/related_software/pinentry/index.html
 Depends: libandroid-support, libassuan, libgpg-error, libiconv, ncurses
 Description: Dialog allowing secure password entry
-Filename: dists/stable/main/binary-aarch64/pinentry_1.3.1-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pinentry_1.3.1-1_aarch64.deb
 Size: 47016
 MD5Sum: bfe7d821f80560f29b100a5c58c0d122
 SHA1: d130904e80fe85dc9b4283d5ac8d1b88d7646e80
@@ -2570,7 +2570,7 @@ Version: 3.3.17-5
 Homepage: https://gitlab.com/procps-ng/procps
 Depends: procps (= 3.3.17-5)
 Description: Static libraries for procps
-Filename: dists/stable/main/binary-aarch64/procps-static_3.3.17-5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/procps-static_3.3.17-5_aarch64.deb
 Size: 28628
 MD5Sum: ad39942902f3482840fa0ef7a891509a
 SHA1: f5c9fd53c130761b85de38489bd25e6dfb56b104
@@ -2588,7 +2588,7 @@ Depends: ncurses
 Essential: yes
 Replaces: procps-dev
 Description: Utilities that give information about processes using the /proc filesystem
-Filename: dists/stable/main/binary-aarch64/procps_3.3.17-5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/procps_3.3.17-5_aarch64.deb
 Size: 143200
 MD5Sum: 74f35fb2f738c5d0d145a5588f94f1d7
 SHA1: a0166c4c68751f6d4664aac22e8faf6342f58aa7
@@ -2604,7 +2604,7 @@ Homepage: https://proot-me.github.io/
 Depends: libtalloc
 Suggests: proot-distro
 Description: Emulate chroot, bind mount and binfmt_misc for non-root users
-Filename: dists/stable/main/binary-aarch64/proot_5.1.107-65_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/proot_5.1.107-65_aarch64.deb
 Size: 85116
 MD5Sum: 74a274bac998e746255ddc1e7d80532b
 SHA1: 0c2570968474843a2ae5980e9e8049c5ae9a84db
@@ -2620,7 +2620,7 @@ Homepage: https://gitlab.com/psmisc/psmisc
 Depends: ncurses
 Essential: yes
 Description: Some small useful utilities that use the proc filesystem
-Filename: dists/stable/main/binary-aarch64/psmisc_23.7_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/psmisc_23.7_aarch64.deb
 Size: 41104
 MD5Sum: c30e7a0895b0c47fc6e4b7ca1aa86591
 SHA1: 4a3fffd3a36494b6954d94a4d06d509bd116b9e6
@@ -2635,7 +2635,7 @@ Version: 3.12.7-1
 Homepage: https://python.org/
 Depends: python (= 3.12.7-1)
 Description: Static libraries for python
-Filename: dists/stable/main/binary-aarch64/python-static_3.12.7-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/python-static_3.12.7-1_aarch64.deb
 Size: 6735432
 MD5Sum: 395fe247949eec246dbc7a0acea06897
 SHA1: 6adf1d2f4af2ac929bd141724af8c8249a392743
@@ -2652,7 +2652,7 @@ Depends: tcl, tk, python (= 3.12.7-1)
 Breaks: python (<< 3.11.1-3)
 Replaces: python (<< 3.11.1-3)
 Description: Tkinter support for Python 3
-Filename: dists/stable/main/binary-aarch64/python-tkinter_3.12.7-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/python-tkinter_3.12.7-1_aarch64.deb
 Size: 1218904
 MD5Sum: 13b0e51ad03d3f0f28a844417bd1cabf
 SHA1: 20f202cc13a98738674cfcf681bc01342b8098ca
@@ -2672,7 +2672,7 @@ Replaces: python-dev
 Provides: python3
 Suggests: python-tkinter
 Description: Python 3 programming language intended to enable clear programs
-Filename: dists/stable/main/binary-aarch64/python_3.12.7-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/python_3.12.7-1_aarch64.deb
 Size: 7579844
 MD5Sum: b19b09734b44949baaef2f885e0ca7c2
 SHA1: e876caa7a3c1eeb30d2dc369822b148ec359efc6
@@ -2688,7 +2688,7 @@ Homepage: https://unbound.net/
 Depends: python, libunbound (= 1.22.0)
 Conflicts: unbound (<< 1.15.0-1)
 Description: Python bindings for Unbound
-Filename: dists/stable/main/binary-aarch64/pyunbound_1.22.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pyunbound_1.22.0_aarch64.deb
 Size: 39280
 MD5Sum: 39f8c26575cd342efe8918e32b229636
 SHA1: c6005d558268f57618d01bc8c9d02328b97d2e34
@@ -2703,7 +2703,7 @@ Version: 1.5.6-2
 Homepage: https://github.com/facebook/zstd
 Depends: libc++, zstd (= 1.5.6-2)
 Description: A Pigz-like tool for Zstandard
-Filename: dists/stable/main/binary-aarch64/pzstd_1.5.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/pzstd_1.5.6-2_aarch64.deb
 Size: 42448
 MD5Sum: 1bad22f34d15fa7b856426a52264fbf9
 SHA1: 6c725489b3e253dfc55194cc5d16e383a7b725c5
@@ -2718,7 +2718,7 @@ Version: 8.2.13
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Depends: readline (= 8.2.13)
 Description: Static libraries for readline
-Filename: dists/stable/main/binary-aarch64/readline-static_8.2.13_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/readline-static_8.2.13_aarch64.deb
 Size: 119432
 MD5Sum: 557c6cc3fc6abaf62979001e45c9fd1e
 SHA1: a65ae8ede04d50e9d25c73f1ec762cc5950c387c
@@ -2735,7 +2735,7 @@ Breaks: bash (<< 5.0), readline-dev
 Depends: libandroid-support, ncurses
 Replaces: readline-dev
 Description: Library that allow users to edit command lines as they are typed in
-Filename: dists/stable/main/binary-aarch64/readline_8.2.13_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/readline_8.2.13_aarch64.deb
 Size: 233416
 MD5Sum: 2fc25cec7a09207c875f73b88f226a67
 SHA1: 12cd7a06dbbe0a3c9e2c2a43fa223e7062e06296
@@ -2749,7 +2749,7 @@ Maintainer: @termux
 Version: 1.3
 Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
 Description: Resolver configuration file
-Filename: dists/stable/main/binary-aarch64/resolv-conf_1.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/resolv-conf_1.3_aarch64.deb
 Size: 1004
 MD5Sum: e6b762048c062a78dd264b672d2a9757
 SHA1: de1eb6cc9a686727bbe0a5bd8df16734c4d6122c
@@ -2766,7 +2766,7 @@ Depends: libgcrypt, libksba, libgpg-error, libassuan, libnpth, libusb, gnupg (= 
 Conflicts: gnupg (<< 2.3.3-2)
 Replaces: gnupg (<< 2.3.3-2)
 Description: Daemon invoked by gpg to manage smartcards
-Filename: dists/stable/main/binary-aarch64/scdaemon_2.4.5-3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/scdaemon_2.4.5-3_aarch64.deb
 Size: 185592
 MD5Sum: fbe585b0c09d4f29c84b93defdcf52f2
 SHA1: e5a9b7a979dd2dd7f39ddf59a12a114612fa2782
@@ -2781,7 +2781,7 @@ Version: 4.9-1
 Homepage: https://www.gnu.org/software/sed/
 Essential: yes
 Description: GNU stream editor for filtering/transforming text
-Filename: dists/stable/main/binary-aarch64/sed_4.9-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/sed_4.9-1_aarch64.deb
 Size: 118280
 MD5Sum: 321135f024684755979ab5181a9896d2
 SHA1: 74687724b7185322cdc603081d047eb0537b7ac9
@@ -2796,7 +2796,7 @@ Version: 3.46.1
 Homepage: https://www.sqlite.org
 Depends: readline, zlib
 Description: Command line shell for SQLite
-Filename: dists/stable/main/binary-aarch64/sqlite_3.46.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/sqlite_3.46.1_aarch64.deb
 Size: 581776
 MD5Sum: df3e9a98104777f3e034cf56b629fe79
 SHA1: 4eeefa1c8b7322790d4f61eaf7327768118d2a3d
@@ -2811,7 +2811,7 @@ Version: 4.3.0
 Homepage: https://swig.org
 Depends: libc++, pcre2, zlib
 Description: Generate scripting interfaces to C/C++ code
-Filename: dists/stable/main/binary-aarch64/swig_4.3.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/swig_4.3.0_aarch64.deb
 Size: 931456
 MD5Sum: ac5638ccceea86fc615d7de790ab170e
 SHA1: 5227e7a70403c6e44c124d3dba0fb8853b68359b
@@ -2827,7 +2827,7 @@ Homepage: https://www.gnu.org/software/tar/
 Depends: libandroid-glob, libiconv
 Essential: yes
 Description: GNU tar for manipulating tar archives
-Filename: dists/stable/main/binary-aarch64/tar_1.35_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/tar_1.35_aarch64.deb
 Size: 342964
 MD5Sum: 37ae1917b98c21e2ab0f2618843241e5
 SHA1: 02081fc874f419be479332172ec49c5e93f0beb0
@@ -2844,7 +2844,7 @@ Breaks: tcl-dev, tcl-static
 Depends: zlib
 Replaces: tcl-dev, tcl-static
 Description: Powerful but easy to learn dynamic programming language
-Filename: dists/stable/main/binary-aarch64/tcl_8.6.14_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/tcl_8.6.14_aarch64.deb
 Size: 2259016
 MD5Sum: 1833d54d9d617992509f59f680102777
 SHA1: 7fa5507c3d33b1d3d262f911da8941d6a4fbb56d
@@ -2859,7 +2859,7 @@ Version: 1.5.0
 Homepage: https://github.com/termux/termux-am-socket
 Depends: libc++
 Description: A faster version of am with less features that only works while Termux is running
-Filename: dists/stable/main/binary-aarch64/termux-am-socket_1.5.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/termux-am-socket_1.5.0_aarch64.deb
 Size: 16228
 MD5Sum: d0270f9cad65750573c1ed5eebb2c207
 SHA1: ff4c2b035f5835f08203424e9199ce980b8e2533
@@ -2874,7 +2874,7 @@ Version: 1:1.0
 Homepage: https://github.com/termux/termux-exec
 Essential: yes
 Description: An execve() wrapper to make /bin and /usr/bin shebangs work
-Filename: dists/stable/main/binary-aarch64/termux-exec_1:1.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/termux-exec_1:1.0_aarch64.deb
 Size: 3604
 MD5Sum: 548949f07e3d51f1b8a56511a5f6d496
 SHA1: d0648bfb10db8a2053a91928f83470e655abf924
@@ -2894,7 +2894,7 @@ Conflicts: procps (<< 3.3.15-2)
 Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Description: Basic system tools for Termux
-Filename: dists/stable/main/binary-aarch64/termux-tools_1.44.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/termux-tools_1.44.1_aarch64.deb
 Size: 33180
 MD5Sum: a868efc330eee546b2811907b9511a35
 SHA1: e5418a2a61d9c10131c0f3ad0f2342fe58958389
@@ -2914,7 +2914,7 @@ Conflicts: procps (<< 3.3.15-2)
 Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Description: Basic system tools for Termux
-Filename: dists/stable/main/binary-aarch64/termux-tools_1.44.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/termux-tools_1.44.2_aarch64.deb
 Size: 33260
 MD5Sum: c481de17ba29a3795275e1771af8e32f
 SHA1: 3612cfd9886bd102792688a94196acc517cafce8
@@ -2929,7 +2929,7 @@ Version: 8.6.14
 Homepage: https://tcl.sourceforge.net/
 Depends: fontconfig, libx11, libxft, libxss, tcl
 Description: A windowing toolkit for use with tcl
-Filename: dists/stable/main/binary-aarch64/tk_8.6.14_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/tk_8.6.14_aarch64.deb
 Size: 1753208
 MD5Sum: 730f83b5de2406645d4b630f98bdb4af
 SHA1: 263ddd76c2202eac3083a2b60cdd66c9b62360eb
@@ -2944,7 +2944,7 @@ Version: 0.4.8.12
 Homepage: https://www.torproject.org
 Depends: libevent, liblzma, openssl, resolv-conf, zlib
 Description: The Onion Router anonymizing overlay network
-Filename: dists/stable/main/binary-aarch64/tor_0.4.8.12_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/tor_0.4.8.12_aarch64.deb
 Size: 2896956
 MD5Sum: cfea1fcf3c161b9ac56ae403b5aa7976
 SHA1: 5f2e170d34640b802da4806a18f5129b921c7d14
@@ -2959,7 +2959,7 @@ Version: 1.22.0
 Homepage: https://unbound.net/
 Depends: libexpat, libunbound (= 1.22.0)
 Description: Unbound command-line tools
-Filename: dists/stable/main/binary-aarch64/unbound_1.22.0_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/unbound_1.22.0_aarch64.deb
 Size: 591452
 MD5Sum: 1d28884d41bd025d30ae524e935b964c
 SHA1: 3d18bb60e2efaf93b7ef727ef3986057aeaf4002
@@ -2974,7 +2974,7 @@ Version: 6.0-9
 Homepage: https://sourceforge.net/projects/infozip/
 Depends: libbz2
 Description: Tools for working with zip files
-Filename: dists/stable/main/binary-aarch64/unzip_6.0-9_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/unzip_6.0-9_aarch64.deb
 Size: 116956
 MD5Sum: bd4a7e7406c2272fcffbdf4f83be957d
 SHA1: 101619fb6e6806d069b7828485942bbafcb47e53
@@ -2989,7 +2989,7 @@ Version: 2.40.2-1
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Depends: util-linux (= 2.40.2-1)
 Description: Static libraries for util-linux
-Filename: dists/stable/main/binary-aarch64/util-linux-static_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/util-linux-static_2.40.2-1_aarch64.deb
 Size: 420624
 MD5Sum: c7408435f63d5841fa4fe6661b63fc07
 SHA1: c2dfd228b5ff5557830533db8795ece357900c0f
@@ -3007,7 +3007,7 @@ Depends: libcap-ng, libsmartcols, ncurses, zlib, libandroid-glob
 Essential: yes
 Replaces: util-linux-dev
 Description: Miscellaneous system utilities
-Filename: dists/stable/main/binary-aarch64/util-linux_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/util-linux_2.40.2-1_aarch64.deb
 Size: 703400
 MD5Sum: 671242a39fb134c91e6bc40792f197e8
 SHA1: 07a19a85275ba08edd31b0b9f25848ef5c0464c0
@@ -3022,7 +3022,7 @@ Version: 2.40.2-1
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Depends: libsmartcols, libuuid
 Description: Utilities for handling universally unique identifiers
-Filename: dists/stable/main/binary-aarch64/uuid-utils_2.40.2-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/uuid-utils_2.40.2-1_aarch64.deb
 Size: 40700
 MD5Sum: 6259987a0a88dbeb0848ec4efa464a0e
 SHA1: 0edab664ddf4bf2c28098a209aee915c305da521
@@ -3039,7 +3039,7 @@ Depends: libiconv, ncurses, vim-runtime
 Conflicts: vim-python
 Recommends: diffutils
 Description: Vi IMproved - enhanced vi editor
-Filename: dists/stable/main/binary-aarch64/vim_9.1.0800_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/vim_9.1.0800_aarch64.deb
 Size: 1186692
 MD5Sum: 2b1158190a39b372c333c750db1aa0b6
 SHA1: 9ddfff2b1bb13cfe84ad7ccdbd7f50b04d4d5050
@@ -3054,7 +3054,7 @@ Version: 1.24.5
 Homepage: https://www.gnu.org/software/wget/
 Depends: libandroid-support, libiconv, libidn2, libuuid, openssl, pcre2, zlib
 Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
-Filename: dists/stable/main/binary-aarch64/wget_1.24.5_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/wget_1.24.5_aarch64.deb
 Size: 280868
 MD5Sum: 319ceecfffd281d3f79e46d7060a6e8a
 SHA1: 07cef8a63ab2ebad562300579c3f38fec1f6a123
@@ -3069,7 +3069,7 @@ Version: 1.1.42-1
 Homepage: http://xmlsoft.org/libxslt/
 Depends: libxslt (= 1.1.42-1)
 Description: XSLT command line processor
-Filename: dists/stable/main/binary-aarch64/xsltproc_1.1.42-1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/xsltproc_1.1.42-1_aarch64.deb
 Size: 11912
 MD5Sum: 44f41f4318bc13e97c01a161f17771fa
 SHA1: 3faecfc880781995c172e2d1bd245cb21a0d46d8
@@ -3084,7 +3084,7 @@ Version: 0.8.2
 Homepage: https://cyan4973.github.io/xxHash/
 Depends: xxhash (= 0.8.2)
 Description: Static libraries for xxhash
-Filename: dists/stable/main/binary-aarch64/xxhash-static_0.8.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/xxhash-static_0.8.2_aarch64.deb
 Size: 8668
 MD5Sum: 19f32b4857fc4b2fe49968465a40ce7a
 SHA1: 78239e66fc4872d19768a33582f7a9d4bbbf367a
@@ -3098,7 +3098,7 @@ Maintainer: @termux
 Version: 0.8.2
 Homepage: https://cyan4973.github.io/xxHash/
 Description: Extremely fast non-cryptographic hash algorithm
-Filename: dists/stable/main/binary-aarch64/xxhash_0.8.2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/xxhash_0.8.2_aarch64.deb
 Size: 74764
 MD5Sum: 5c505b3d34a6e9de5e1aa861ed3a696f
 SHA1: 010ce7e5e3c218c26b87014e6fe241d58c8dfb33
@@ -3114,7 +3114,7 @@ Homepage: https://tukaani.org/xz/
 Essential: yes
 Depends: liblzma (= 5.6.3)
 Description: XZ-format compression tools
-Filename: dists/stable/main/binary-aarch64/xz-utils_5.6.3_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/xz-utils_5.6.3_aarch64.deb
 Size: 66960
 MD5Sum: fdf6c736349b4fffbd14258490cfaadc
 SHA1: 977a60b0414825118244db4e15b972c84e732454
@@ -3129,7 +3129,7 @@ Version: 1.3.1
 Homepage: https://www.zlib.net/
 Depends: zlib (= 1.3.1)
 Description: Static libraries for zlib
-Filename: dists/stable/main/binary-aarch64/zlib-static_1.3.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/zlib-static_1.3.1_aarch64.deb
 Size: 34276
 MD5Sum: a195bcfb48f2503571db3ba0289c3a82
 SHA1: 6ebed87df7b4d41156379e1ea3349461dfdd07d2
@@ -3145,7 +3145,7 @@ Homepage: https://www.zlib.net/
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
-Filename: dists/stable/main/binary-aarch64/zlib_1.3.1_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/zlib_1.3.1_aarch64.deb
 Size: 60116
 MD5Sum: 29d8a4a10fe25f12a75384db305ed04b
 SHA1: 9f6b8f0158892d82b4469c1c9a92563470892b03
@@ -3162,7 +3162,7 @@ Breaks: zstd-dev
 Depends: liblzma, zlib
 Replaces: zstd-dev
 Description: Zstandard compression
-Filename: dists/stable/main/binary-aarch64/zstd_1.5.6-2_aarch64.deb
+Filename: dists/stable/main/binary-aarch64/zstd_1.5.6-2_aarch64.deb
 Size: 358848
 MD5Sum: 77431d23c009cbe1277aa2b39e50bb77
 SHA1: d6191875afe9746da5717ea233f84587f90ade82
