@@ -149,6 +149,36 @@ SHA1: e8fc91c07057ba09745fcf9c73c5668853005033
 SHA256: 6322f0ab3e46838ce72ad9dfe494f1b011997a15956d4ecfd5570995a1dfea8e
 SHA512: 8fc126c433df54cdc27663dda3ccc68ca43e03c87fc03290735ea932f5f6be0e022460ce4c26c7ee33edb42d07ae664a95f82862b75eb27a9ce6e3d00dac99ce
 
+Package: cups-static
+Architecture: aarch64
+Installed-Size: 4124
+Maintainer: @termux
+Version: 2.4.11
+Homepage: https://www.cups.org/
+Depends: cups (= 2.4.11)
+Description: Static libraries for cups
+Filename: dists/stable/main/binary-aarch64/cups-static_2.4.11_aarch64.deb
+Size: 722764
+MD5Sum: 78452c96df98cdb1b060b4cdfc5d0c77
+SHA1: fffe97c76229fcf85db5e94a1e67691ad64c977d
+SHA256: 2c12ead4b6caa5feacfd91fbb9191376bd295f6563f55dfc73423e1d0d199f63
+SHA512: bc1671d16b2164cb8091b7b5ecc026e058fce04887fec6ce02e60aa9f21819e0cc5ccacf6c7d46980c3bc50256e20eceac2c62694a6034c27a30f746308494bf
+
+Package: cups
+Architecture: aarch64
+Installed-Size: 11852
+Maintainer: @termux
+Version: 2.4.11
+Homepage: https://www.cups.org/
+Depends: libc++, libcrypt, libgnutls, libiconv, zlib
+Description: Common UNIX Printing System
+Filename: dists/stable/main/binary-aarch64/cups_2.4.11_aarch64.deb
+Size: 5156640
+MD5Sum: 4af7a96c809258360a79b3abbf58e828
+SHA1: ac2da8d90db66a9eea8102708082b47a51486735
+SHA256: 89be82b948627cd36a27b5db5adfe99ae4f8578b80183a14bd4f8988b19d1819
+SHA512: edf071000f6080c0d3a7a5da7a6eddad9d893cf0c90599c234f064db9b4b607bc3aeadb2f3c4215185a4b98eeb376f344e7d166ee18d4f85a2fb1159a2b2a0ee
+
 Package: curl
 Architecture: aarch64
 Installed-Size: 376
@@ -509,6 +539,53 @@ SHA1: 0f2a691921c9ef18ce3e0e8b939edb7a9f885dab
 SHA256: 12713138c10ffb301cad8c4b3de49914a218729192991fcbeafd6ce85e702a0e
 SHA512: 41b3763a4ed4138b17ff1778fb3250a99617efb67493106a15a9e143fc9e471ea886748067ec97e91a3b1a752f0e3e7fee7f552ccf895d5964a37ac7d7596961
 
+Package: giflib-static
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: @termux
+Version: 5.2.2
+Homepage: https://giflib.sourceforge.net/
+Depends: giflib (= 5.2.2)
+Description: Static libraries for giflib
+Filename: dists/stable/main/binary-aarch64/giflib-static_5.2.2_aarch64.deb
+Size: 15120
+MD5Sum: e7150e14b66451ee8948a6d598692fd5
+SHA1: 71ac0b91c3e88ef3ea31cae085fa1b39af010ab1
+SHA256: 9a16d16f95efc08819952bdcd8d63349e70df48d36ac0fbaecb50245ec6b4444
+SHA512: 5b5ac16c1100a63424e10f93407b3034083e9e1c0c238b83348276b1dfa00ec1c3e0a34df57be7307ed98aae88092b11438437a7049b7bb12bf9576dc9d4a1d1
+
+Package: giflib-utils
+Architecture: aarch64
+Installed-Size: 296
+Maintainer: @termux
+Version: 5.2.2
+Homepage: https://giflib.sourceforge.net/
+Depends: giflib (= 5.2.2)
+Conflicts: giflib (<< 5.1.4-4)
+Description: A set of utilities that comes with giflib package
+Filename: dists/stable/main/binary-aarch64/giflib-utils_5.2.2_aarch64.deb
+Size: 50708
+MD5Sum: d7fce87918b840a572f13235b1977d9b
+SHA1: 4f0e0eb3eddb7787ffa594c491e7ff5874262e3a
+SHA256: 46e2490f06f2805c5caf3fc6419dd9b255c70b5c2fd9bbac7eb29cec0262aba2
+SHA512: 54a08b8ee206baf42965e8cee68d3d8e01d4968263c7d3c57bde8e2471da18221cc7866ed1b544d1de35d4729c2edf56c73bccf1f807ee3e2a7fdf21fc86ff8d
+
+Package: giflib
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 5.2.2
+Homepage: https://giflib.sourceforge.net/
+Breaks: giflib-dev
+Replaces: giflib-dev
+Description: A library for reading and writing gif images
+Filename: dists/stable/main/binary-aarch64/giflib_5.2.2_aarch64.deb
+Size: 18312
+MD5Sum: 61f811ac62349ec62915e76f12e3a8ff
+SHA1: aca7b21caab2ecbce6d9f45dcb85bd45a4cae2b7
+SHA256: b6505fac8eeb5c5b9af5519a765e0d45917e06fb1513412ffa67772099eb5b30
+SHA512: 3beebd4733e5981f9c4af0df39d4eae72ad90be703d7fc5bc8e7856df57890d0c53c10826379777019e076be878f9f81d93b796e6febb5b1dd9651795bf15ce6
+
 Package: gnupg
 Architecture: aarch64
 Installed-Size: 5340
@@ -709,6 +786,67 @@ MD5Sum: 885faa9de986cad37d522edd0cbd08f7
 SHA1: f29782c6d192c99302e852ec8875e05bd4b52a91
 SHA256: c59751447c425d106b03b10ee3dbe4fa4fa76caf236f310bfedd7c51639afb5c
 SHA512: 3a086b4b1e80de52a5b151c4dafc34eeab6ba5c0489ba84e2d5b03840dc9a741b34ea0877bdbabbb3c90749044defe840d50259470e47452b516321771642299
+
+Package: libandroid-shmem-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 0.5
+Homepage: https://github.com/termux/libandroid-shmem
+Depends: libandroid-shmem (= 0.5)
+Description: Static libraries for libandroid-shmem
+Filename: dists/stable/main/binary-aarch64/libandroid-shmem-static_0.5_aarch64.deb
+Size: 5696
+MD5Sum: 899c4e94794c73814f855db37c8250d3
+SHA1: 2ba3c968c69bd0475e0d1c48b9f7c031f06c1bc0
+SHA256: c9e021943b26ec11e3f98c46a2733d7b81684a764e33e1507c8a4db90ec8bfe9
+SHA512: f4f1576a1c0fd3f3833d408816dcc9068497c09e825bf46272c21a3604c1f169574f731a7d8e16afe2b2a93cce5cc632023c4165ea4cd2e07d1ac302026bc971
+
+Package: libandroid-shmem
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 0.5
+Homepage: https://github.com/termux/libandroid-shmem
+Breaks: libandroid-shmem-dev
+Replaces: libandroid-shmem-dev
+Description: System V shared memory emulation on Android using ashmem
+Filename: dists/stable/main/binary-aarch64/libandroid-shmem_0.5_aarch64.deb
+Size: 6860
+MD5Sum: 40d4b623d67592285031b858211a4322
+SHA1: 77c5cb1858a742f8f8f041da19e2e425d0154e10
+SHA256: 029712b6658ec0ee7929a3aa8fb193746c4c6816effad207226c13b43c7fe4a4
+SHA512: 0f010f5bf9f8af97b025856cc0a18f6583e708a472c8a987974565b796022bee4400bda2d4e0a83d0945bcc3f65ecfe497ab8a111003138d9c8775650502021c
+
+Package: libandroid-spawn-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: @termux
+Version: 0.3
+Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
+Depends: libandroid-spawn (= 0.3)
+Description: Static libraries for libandroid-spawn
+Filename: dists/stable/main/binary-aarch64/libandroid-spawn-static_0.3_aarch64.deb
+Size: 4080
+MD5Sum: 08fe5de394f08d834e25d76785f1dde0
+SHA1: 8a740bcc1b6dffdd29b4fe34a6b35961b8e45f30
+SHA256: 570014c9ab019298d06d832520de263a03063aa972eb5e1b2ca8ec26b0953ce0
+SHA512: 63ea27a2239e1ba7489030c914209ab85f1126281374b269c9ecb6becb6f2393aaee24b8c899240fff020333bf4d053fed1bdead56702984944839aa47e1c960
+
+Package: libandroid-spawn
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 0.3
+Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
+Depends: libc++
+Description: Shared library for the posix_spawn system function
+Filename: dists/stable/main/binary-aarch64/libandroid-spawn_0.3_aarch64.deb
+Size: 15936
+MD5Sum: 450b9fc817068ad11068fd95948f8d87
+SHA1: 468f66fda5ad4fb3b798de5a896fcddc2dceb160
+SHA256: 546f5b57f695763b2015f07466e1c8057fe5d20c9b1cb9875e4def030654c443
+SHA512: 0c58d29a6d74f6ef671f42d321c99be3d7b9e0542ddd31ce1c580fcd95ac8f1fcd5171660a5b300f6d65cc27319fe323b5bb7ef03c36477add411a23bc5d73e4
 
 Package: libandroid-support-static
 Architecture: aarch64
@@ -1181,6 +1319,35 @@ SHA1: 905119457672460e52c3c428c4eab9fbea9cf50d
 SHA256: f1cf435c364c7bb9b24fd7e495daa0765d56124f439d5499b4f146c70cc8849e
 SHA512: bd097446a081cd35326a369f7cfc347ee2485ab17ca1dce8ed593f5adc9cdc308554f30af62c2c8c5c0bbf7b368534e7c5c7ee301c7cc15b9529d1e884b70317
 
+Package: libice-static
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 1.1.1
+Homepage: https://xorg.freedesktop.org/
+Depends: libice (= 1.1.1)
+Description: Static libraries for libice
+Filename: dists/stable/main/binary-aarch64/libice-static_1.1.1_aarch64.deb
+Size: 37136
+MD5Sum: 1cd8933f923ad36e1d640a53db9b12e4
+SHA1: 88c573fcb53420b910a83d4aabb42f8568cd7c5f
+SHA256: a083577632611e4e33692baec681872645da6fd53e86f784e6c86ce76e8910c6
+SHA512: e54c90488567547b86f89a2ac25a73ada4814320ff603ec743bc9e8322d51751839eef2ffa9b9ec1be22f4d7b006c82f355341389d4da2458f8bbf038f246c85
+
+Package: libice
+Architecture: aarch64
+Installed-Size: 432
+Maintainer: @termux
+Version: 1.1.1
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Inter-Client Exchange library
+Filename: dists/stable/main/binary-aarch64/libice_1.1.1_aarch64.deb
+Size: 67856
+MD5Sum: 29c55820056933ea701490fdaf0dc407
+SHA1: 797810b2a70fde368a5166b160bb3e71e5d952bd
+SHA256: e4468e77d398eaab520e38bf02d7b654ba3d8bc246e93d2c983125141028e96c
+SHA512: cdbc45d7454a13813b255bd9b4d9970dfe9aeba9c665a86c6ed6318dce009ca33c6263136c2ef5fbd714b99d3232e837cc45d5ab37f5f695e17f87bb6e64dcc5
+
 Package: libiconv-static
 Architecture: aarch64
 Installed-Size: 1212
@@ -1243,6 +1410,52 @@ MD5Sum: ab8fe2de7a498fa16004285b3b80c67f
 SHA1: debc01944a5cbd2742f878a2ccc1c94a2685415b
 SHA256: b7423df8b93e41acc4c80a9e30d60669b5582e93b1140050b5238d951e8a38b5
 SHA512: 910ac306b05e3bbb7658b445ffc8090bb757ab9143ddac61bac5153c4a3d4b06c9b2503c8f5fd83394a2fd95e4d187990a420dc18d438ca9bc2cc6acef459ab5
+
+Package: libjpeg-turbo-progs
+Architecture: aarch64
+Installed-Size: 352
+Maintainer: @termux
+Version: 3.0.4
+Homepage: https://libjpeg-turbo.virtualgl.org
+Depends: libjpeg-turbo (= 3.0.4)
+Description: Programs for manipulating JPEG files
+Filename: dists/stable/main/binary-aarch64/libjpeg-turbo-progs_3.0.4_aarch64.deb
+Size: 95540
+MD5Sum: 2b633af61282863d83100b6a7b33a704
+SHA1: a5d3f679b8f6c206acfd5b28e9dfc6623c0b1a04
+SHA256: 4e4d2499cfb57da3cc8ba8e649e394736a94b35af405e061aa2c76881d8cd433
+SHA512: 3f33903b5acc2e34a6bdd09d618048aa31ccacf52a5f2d675feca1e3186a29e2c1533d444153c0fc44d59ab3653ec0003392e6e1f3f21f968f14c1c13c87e727
+
+Package: libjpeg-turbo-static
+Architecture: aarch64
+Installed-Size: 2040
+Maintainer: @termux
+Version: 3.0.4
+Homepage: https://libjpeg-turbo.virtualgl.org
+Depends: libjpeg-turbo (= 3.0.4)
+Description: Static libraries for libjpeg-turbo
+Filename: dists/stable/main/binary-aarch64/libjpeg-turbo-static_3.0.4_aarch64.deb
+Size: 257440
+MD5Sum: 495478c466a28a83f4143280612223e4
+SHA1: 44a4159cabf102c2d4bcd0a4fef294550aaf6ecc
+SHA256: 8c1687f852b1a1ad64237810e4008fd7412f7a210cb9a2f087df1329be9bc783
+SHA512: c24052efc27c4f84d1e545349de270be773a3ace0d9666b708223c41071bda64d03fae502deb1e911388ec92231cabde4ecda551f511e9eb6b25d6f33e4ebfd5
+
+Package: libjpeg-turbo
+Architecture: aarch64
+Installed-Size: 1996
+Maintainer: @termux
+Version: 3.0.4
+Homepage: https://libjpeg-turbo.virtualgl.org
+Breaks: libjpeg-turbo-dev
+Replaces: libjpeg-turbo-dev
+Description: Library for reading and writing JPEG image files
+Filename: dists/stable/main/binary-aarch64/libjpeg-turbo_3.0.4_aarch64.deb
+Size: 374100
+MD5Sum: ff1b8a2f164f84bfeca253b425e8ed0d
+SHA1: 0a6219a7ac975551b0fa93be2b6058ed345985e4
+SHA256: f8172b116889fd67b96d1e2014ef09c21980519ab3a7e0ca2f375902a538d266
+SHA512: 313d37b980f18af2c622271eabf9e839e57c860519513255d20dd04b8c2e9a5cced5be5372de570e33fa4f26ef80eb9f2e900382335b0c227a03b1f930db0be2
 
 Package: libksba-static
 Architecture: aarch64
@@ -1555,6 +1768,36 @@ MD5Sum: c35958a78d54f432feff114e90044458
 SHA1: 54b8bdae5e09190ca6298c0314d71bffa5f9e281
 SHA256: cc12f85bb890723e6a42b5f4f47a2794ed2586e6066ceb29ed9f4f2ed6917126
 SHA512: ff1d6ff450af927bfd413bebbda8f32677084f0a0433bfd17221f166b3ed6b7fd79ffb06bde234727bb6068b483ec347e2dfe1db3f286781adedec1256adabe9
+
+Package: libsm-static
+Architecture: aarch64
+Installed-Size: 80
+Maintainer: @termux
+Version: 1.2.4-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libsm (= 1.2.4-1)
+Description: Static libraries for libsm
+Filename: dists/stable/main/binary-aarch64/libsm-static_1.2.4-1_aarch64.deb
+Size: 12748
+MD5Sum: 87a502e258255a389ca242dcfe576c7c
+SHA1: 8d1b5fa1d86ce0d2e013bc1e528d9f5f099e9063
+SHA256: a1aa7a8f7f22c57f5df7dd548b173e2669fca2b46f73f1a2f92b189a29544621
+SHA512: fc560df1c2f421777f7aad6372204fb012bcbfad25f09a813975766fea4f7a6eab8f9ce59fe188eeb36398d49192e7548be63bafb844d0ba7d84a8d83e05322e
+
+Package: libsm
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 1.2.4-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libuuid
+Description: X11 Session Management library
+Filename: dists/stable/main/binary-aarch64/libsm_1.2.4-1_aarch64.deb
+Size: 40652
+MD5Sum: b1ccb18652e72fd083339b25e41b1fcd
+SHA1: b7feee8c22c2407567128181f213b96682245cf1
+SHA256: 1290a6961ae4e4bd0481597dc75b1bcc17be3b2a59f92caf08cf124fd8609981
+SHA512: 73da51b373512b93e1332cad20c035ee5ae61785841512f02c72b9dd6e7808d02079b66e88958df9709b3cf327bad3941c50b821c75a13e8f2404a6230d25017
 
 Package: libsmartcols
 Architecture: aarch64
@@ -1973,6 +2216,36 @@ SHA1: 3514c3710407ce8ba354a5f1b9f3c5dcc8cf5c0c
 SHA256: 0e39141250c3f479192beb69f831f0bf8e6b6fc4816f8873cf7215f634e3bbf6
 SHA512: 3768e012223f51214d789b35e471b0d9903aa58a9da36b7b13d5ccf33f6f2973139af9a38147eec41fec7b9a3cb3e7a3e6579c4cae6d3f6d644ff9763d5f19f4
 
+Package: libxfixes-static
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 6.0.1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxfixes (= 6.0.1)
+Description: Static libraries for libxfixes
+Filename: dists/stable/main/binary-aarch64/libxfixes-static_6.0.1_aarch64.deb
+Size: 7892
+MD5Sum: 854eda96ae07d961baf794f8a8f14734
+SHA1: 1528c67fa98a9d11a4e42b69a8509753c97af562
+SHA256: 0d0a8225c0105a949ad04a8c255b28ba5114335b9bffe7f6e5731e1064b49cb1
+SHA512: 18732ca17df40aee211a608a400fc21a08a1005aa34a576e3d35e31ac32276039ccbadb90289375c2cd075e6b578801b51e94a00467faf19c16df78179722284
+
+Package: libxfixes
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 6.0.1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X11 miscellaneous 'fixes' extension library
+Filename: dists/stable/main/binary-aarch64/libxfixes_6.0.1_aarch64.deb
+Size: 11400
+MD5Sum: dcb74a1316b09817129d16e4e4a6d535
+SHA1: 1d66740193101006f3c7552378c45cfbec642b24
+SHA256: 385d4bc6a25e4f285273a8e56c1d24274c7d41a4b5acdaa01d57c4c34e2523c5
+SHA512: 11fa19bc67aa07ff26d9608ef3320f93fcd5e9616f4ad6e2df1d0487f7b3368df8836416e3d1dc74b8daba7d0b8116e7af740f023b853d62ecc3d074285670b4
+
 Package: libxft-static
 Architecture: aarch64
 Installed-Size: 164
@@ -2002,6 +2275,36 @@ MD5Sum: 24cfb4bddbebdb1685c84d0b07adcd9f
 SHA1: 94e6b36993e92a4e5d50ae2a81c17d9fcd217c6c
 SHA256: 16fc9b15f00a2587a528f29bb87e1807ee967370f01d2dbe4d368d5229c276ca
 SHA512: 529fcd19afa2313aa06f2f10d10f51771781d40f6f2a73c98c7fef7cccc9fba0856ef8344ee2b5175aa2dc75a832b673dc6a29f718267dffdb3d6fe5384bc0b6
+
+Package: libxi-static
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 1.8.2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxi (= 1.8.2)
+Description: Static libraries for libxi
+Filename: dists/stable/main/binary-aarch64/libxi-static_1.8.2_aarch64.deb
+Size: 27016
+MD5Sum: 025b3cd9a0b9616dd155adab8d069ddc
+SHA1: dda2d652ce0b646ba1f60b9c33fd8ef4dcb34eda
+SHA256: 2a057b39b7afb2f7a0a4a9edfac63c88455068bc5e6b64ada08c3a18bde01fb4
+SHA512: b1ba81be224881c0ece521b82b6d09559b5e076c1c9ac1fe08dc353ddb4fb505154cfa03e57928e350ffb8c97a5575bc143bb7182276007e5f7e14bbc1ba410f
+
+Package: libxi
+Architecture: aarch64
+Installed-Size: 788
+Maintainer: @termux
+Version: 1.8.2
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext
+Description: X11 Input extension library
+Filename: dists/stable/main/binary-aarch64/libxi_1.8.2_aarch64.deb
+Size: 141476
+MD5Sum: c1cd98ff74481b379831927becb155bc
+SHA1: 7c3b241fe9a4d0059d6145e07dc394a320f0e881
+SHA256: 156f7eeee758d4e3c2a55b044eb139af506a15285069a4bbb07596bc1692d5d6
+SHA512: dd73725b821fe9d535af883fde074a91770838af6bf1652360897b09c40ccac561982b1435c9462ef4faf92134fc0e5894273c86dd2bc1379774c755c4e7e35f
 
 Package: libxml2-python-static
 Architecture: aarch64
@@ -2080,6 +2383,36 @@ SHA1: d5651fb00cfcb71c59c3b5fbbabca83da73d5132
 SHA256: 5fe94ff04df0d3a5a5515303be4cd17d8b6dbcd7b8334d6458ee630e19cb58fe
 SHA512: 15fc7a2bb0f026d6983380a462297468a63ee74cdacc8c66e096e3b9c88aac27334ad8215925852397ff3ebf79a4707b499248fa3c9548e0fbebfec9ed0a2af5
 
+Package: libxrandr-static
+Architecture: aarch64
+Installed-Size: 100
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://xorg.freedesktop.org/
+Depends: libxrandr (= 1.5.4)
+Description: Static libraries for libxrandr
+Filename: dists/stable/main/binary-aarch64/libxrandr-static_1.5.4_aarch64.deb
+Size: 14836
+MD5Sum: 4297b035bdcd4f67737e508a7937c464
+SHA1: b443b62d1e854aaddcbaa878fdfa72168850a784
+SHA256: eae626cdd50159f1548a0540b2f08ce61bfd6cf5978881abc95975c142c9c630
+SHA512: 05ad1191f62a44d30fb60bbfef657e19f1a46cb2f02ef893a9f6e612c0cd21aa897c1296e95ee654d39eaa8db581af20e13ab895ea686c49fe3ce3f1063b8f4f
+
+Package: libxrandr
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 1.5.4
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxrender
+Description: X11 RandR extension library
+Filename: dists/stable/main/binary-aarch64/libxrandr_1.5.4_aarch64.deb
+Size: 22184
+MD5Sum: c800bdfc110bd05cbffe2c3cf8e8a3fe
+SHA1: c9a91f4c228d0778cf6c9dc304ad1c3228cc4bf4
+SHA256: c0793ed4d61d6e226187d2eaed52fcfb39fe6bb437f4bdf3144d5e2fc5181f10
+SHA512: 937308b702f713af320882b81dd2b0daf67234f359ce8012403addd8f0b19c788f3c82f1bc19d8bd2803b24a61b2c9d8c812ed1f2f5d5bef58637d8dd7c78f47
+
 Package: libxrender-static
 Architecture: aarch64
 Installed-Size: 92
@@ -2156,6 +2489,66 @@ MD5Sum: 405f330445dd83b30cda00b987861dbb
 SHA1: 0ba075e627f46228365e416c9d83fbcbc53232c1
 SHA256: 82aa9f5001b7bbb5a0d83deaa464bf95c9a1b51b49844324366d6563a747215f
 SHA512: 462b1371b2ab1eb0022e51c3213f7038b9565427cfcb0c8b65c8ec04cbb260286c4d135a2ce0948d4ed6365555ea0f601f715d10c9e817d60bfdeeb48fb69f2e
+
+Package: libxt-static
+Architecture: aarch64
+Installed-Size: 696
+Maintainer: @termux
+Version: 1.3.0
+Homepage: https://xorg.freedesktop.org/
+Depends: libxt (= 1.3.0)
+Description: Static libraries for libxt
+Filename: dists/stable/main/binary-aarch64/libxt-static_1.3.0_aarch64.deb
+Size: 150028
+MD5Sum: 258d35365c522508888b87695c26bf5f
+SHA1: d5af268f6c08bd622886ac693fd948a9e1c3db26
+SHA256: d4e18e08fd01f4f74187fb0e2b1577cf1ebd16edac378d74812b88c72e97ca29
+SHA512: 7c99a291a05f0537c11e760e14c154c8b7f79afec3848e02769577a3891e3c4acf4b698f0f1d4b741b28cb32c103cf9a52500d7fca8e6cdd77107e2cf7cc1065
+
+Package: libxt
+Architecture: aarch64
+Installed-Size: 3120
+Maintainer: @termux
+Version: 1.3.0
+Homepage: https://xorg.freedesktop.org/
+Depends: libice, libsm, libx11
+Description: X11 toolkit intrinsics library
+Filename: dists/stable/main/binary-aarch64/libxt_1.3.0_aarch64.deb
+Size: 483388
+MD5Sum: 0b1803d4eada0595b53267ad48cd1100
+SHA1: d49ad38762bf761e88ebf5618407a85d932079fe
+SHA256: 2952e853631c37f145a645600d6b55ca96d04c90160232e09f2eb42b2b574546
+SHA512: 06871a3b9c325dbb3b1b28497488115b2f1a226e0c12e9704d12879a7a966df833641ef4a7246c6cafc8df0a5d48553961058369b89501013a1b0bc6373dbca9
+
+Package: libxtst-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 1.2.5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxtst (= 1.2.5)
+Description: Static libraries for libxtst
+Filename: dists/stable/main/binary-aarch64/libxtst-static_1.2.5_aarch64.deb
+Size: 8600
+MD5Sum: 5883aa927de392a0ed4523b981171f05
+SHA1: cc49d073c1ec1cf8e056c9a56545471754d42a53
+SHA256: bc80d97920d86820fe1f4a4e1cb61521ad36f3bd34fc5ab0ef482999feacc2d8
+SHA512: a0a6b63999c53f552bbdec5a0b80a8e0f3ffefe43e8404dcb138c21a8f7bfd2bfbf69ce49eb708fa1f961af0fdd277c73c7c47c5f521a05ae9f9de6b0ba0f8bf
+
+Package: libxtst
+Architecture: aarch64
+Installed-Size: 232
+Maintainer: @termux
+Version: 1.2.5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxi
+Description: Xlib-based library for XTEST & RECORD extensions
+Filename: dists/stable/main/binary-aarch64/libxtst_1.2.5_aarch64.deb
+Size: 25636
+MD5Sum: 712dc7b33621dc5cad369a000f5de24b
+SHA1: 07b2920f94dc7c6d0f97582a304722f7788efb2f
+SHA256: eb309537404036908b7eb414a60dc4ebaee63034b2d1621083e98a7ac7d03e5e
+SHA512: 8b5e534e3b2bad54b7031e215db2dc81796a6a475343fd2b8d4354ed060d2c85561b3cced528be383a35bb6ef6c41d485f07cd41e6a9a6e0f7ef0353823457fd
 
 Package: lsof-static
 Architecture: aarch64
