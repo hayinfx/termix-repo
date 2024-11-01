@@ -42,11 +42,11 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg
 Description: Front-end for the dpkg package manager
 Filename: dists/stable/main/binary-aarch64/apt_2.8.1-1_aarch64.deb
-Size: 1027768
-MD5Sum: 3d7632e718a0b13a2e03544c158e83cd
-SHA1: 9b92285bbd3eda5846c0a825e987946cac19e8b0
-SHA256: aeb55a47bb5c831181745ab48996d288f341168b2763773cda8b53224f570f1f
-SHA512: 6861d0d5c32cc33e0b94ea826267f0baa98b06ea8b182ed4cf6632804455770357123f61e62c7f8a6f1b34966d21a5029835ff69ce95b928c4a06e038cd560ff
+Size: 1028024
+MD5Sum: a0369d348242d59f014568d2c2da88d6
+SHA1: 73d8e3823731ebc20c95d27d2d6298f8264600cf
+SHA256: c5cc4966467f2e3a0017af82093241825e0eab0a7db2c201328b3a4c0202e2c7
+SHA512: a5507fdc8c82ca4c0e962bbc485a2f581c89a59108d43a56a22d04ce3b18cd35cfc8798bf84f09c5851892103ab8b4803ac1fe8f2eafe0edd300cb9b9996fb15
 
 Package: bash
 Architecture: aarch64
