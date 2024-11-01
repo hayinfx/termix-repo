@@ -350,6 +350,38 @@ SHA1: 0955a0d0906c34d203d0dc87f87506a44efd07db
 SHA256: 18f07905dc8996663f0117ea1be766908483d32c63a8af2ef5b0e59c1e1193dd
 SHA512: 73593e0767794c85e9004bc71ef0577dcac906f0a74abb20ca4be13c7e16153e8472e35d1de2f1a4a335ee690f85bd3b65f22e6071c2fd3ff6db090396d7bac1
 
+Package: file-static
+Architecture: aarch64
+Installed-Size: 276
+Maintainer: @termux
+Version: 5.45
+Homepage: https://darwinsys.com/file/
+Depends: file (= 5.45)
+Description: Static libraries for file
+Filename: dists/stable/main/binary-aarch64/file-static_5.45_aarch64.deb
+Size: 67012
+MD5Sum: ac9df7202240bd88b585e077c452199c
+SHA1: 02e4d8dc0e5ae19def38ba9917793ebb235faa8d
+SHA256: bb75eb491a4b4d30c68b550106f8b2bd470a5550d9b6785989f1459db01e44ab
+SHA512: 5ab39c48cbb635e8ac27aafc3705cccceeb8e6a2856ca315f3a35b4286835c5bb824b5931cff16b993efd8d1d309d9be0c858ab1acd9f1d71638e4711ff73a7f
+
+Package: file
+Architecture: aarch64
+Installed-Size: 8580
+Maintainer: @termux
+Version: 5.45
+Homepage: https://darwinsys.com/file/
+Breaks: file-dev
+Depends: zlib
+Replaces: file-dev
+Description: Command-line tool that tells you in words what kind of data a file contains
+Filename: dists/stable/main/binary-aarch64/file_5.45_aarch64.deb
+Size: 372808
+MD5Sum: 811136d5dfc491ddbf75146b5a70e13d
+SHA1: 519cb29cf92d141790025c3a6c0c5dd6163dfa6e
+SHA256: 9ec6df7b7b16894018ea4fafba07e43b05d379056224d819e5e3f268ad79b059
+SHA512: b0adaeb9a6b9597eb79ed2135cb8e54bcbaec06aea593e1f16af3973b9922f69f754d6cfe27f801256695fafd96f54306e1f658c1d064517c586e8141f308d9e
+
 Package: findutils
 Architecture: aarch64
 Installed-Size: 884

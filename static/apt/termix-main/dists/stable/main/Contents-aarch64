@@ -792,6 +792,17 @@ data/data/com.termix/files/usr/share/bash-completion/completions/sfdisk         
 data/data/com.termix/files/usr/share/man/man8/cfdisk.8.gz                        fdisk
 data/data/com.termix/files/usr/share/man/man8/fdisk.8.gz                         fdisk
 data/data/com.termix/files/usr/share/man/man8/sfdisk.8.gz                        fdisk
+data/data/com.termix/files/usr/lib/libmagic.a                                    file-static
+data/data/com.termix/files/usr/lib/libmagic.la                                   file-static
+data/data/com.termix/files/usr/bin/file                                          file
+data/data/com.termix/files/usr/include/magic.h                                   file
+data/data/com.termix/files/usr/lib/libmagic.so                                   file
+data/data/com.termix/files/usr/lib/pkgconfig/libmagic.pc                         file
+data/data/com.termix/files/usr/share/doc/file/copyright                          file
+data/data/com.termix/files/usr/share/man/man1/file.1.gz                          file
+data/data/com.termix/files/usr/share/man/man3/libmagic.3.gz                      file
+data/data/com.termix/files/usr/share/man/man4/magic.4.gz                         file
+data/data/com.termix/files/usr/share/misc/magic.mgc                              file
 data/data/com.termix/files/usr/bin/find                                          findutils
 data/data/com.termix/files/usr/bin/xargs                                         findutils
 data/data/com.termix/files/usr/libexec/frcode                                    findutils
