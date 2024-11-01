@@ -102,6 +102,22 @@ SHA1: 8bfd709df1a0b0991e08bf513cfdfd433852a532
 SHA256: 751a179d1062d0d0e57a6a2f923e3f13cb9b0c52bf12e741419572b2d091e749
 SHA512: 25d45b565949f5fd88ff61a1b10e1607bc2152716bc6122fbe02cecacd685b84571d37a5d8e4aea20f2dce292c822b75c47896e7c0ae2ddc802ca5679165a49d
 
+Package: proot-distro
+Architecture: all
+Installed-Size: 236
+Maintainer: @termux
+Version: 4.17.2
+Homepage: https://github.com/termux/proot-distro
+Depends: bash, bzip2, coreutils, curl, file, findutils, gzip, ncurses-utils, proot (>= 5.1.107-32), sed, tar, termux-tools, util-linux, xz-utils
+Suggests: bash-completion, termux-api
+Description: Termux official utility for managing proot'ed Linux distributions
+Filename: dists/stable/main/binary-all/proot-distro_4.17.2_all.deb
+Size: 29316
+MD5Sum: 1f41f2112a643ecde6a4aeaad8dc7820
+SHA1: f13c827a9a424c72c8b15ca092b37adcd9a57f1b
+SHA256: 313ede93ecd5f395288584480f86d766d2ced6176bccd5dfcf5cc8e2bf04a67b
+SHA512: d562af2ff6397e8d778b9892797a4d8c64576ffb231daeffcdd6bc03780fc491cf16b7e644821c532c952218d31fd7acc6e5cf67d0e291e6296703b98d33adab
+
 Package: python-ensurepip-wheels
 Architecture: all
 Installed-Size: 1816
