@@ -22,11 +22,11 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.8.1-1)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: dists/stable/main/binary-aarch64/apt-ftparchive_2.8.1-1_aarch64.deb
-Size: 94920
-MD5Sum: 326a5f097fe1316080fa09dc7dc95f74
-SHA1: 4c20d43955834d92ee2c7a46239065023cdfd164
-SHA256: 28a3063e771afd40af83b75202440fe3cb58d0144e74da298cc8a012742e0c4f
-SHA512: 5a133d460e71e72f563f8d8e4e74463beac093a168cae570d10ea18ab5b8924e917be5b9c1c43d581390c98ab195aa2d5063efdd4a476f7184541abf8f63cb8d
+Size: 94956
+MD5Sum: 42a2bdcf79b4a9fe096ef7b8ac5270c5
+SHA1: b9b67aa38848d9e909997f18eb123af8b8e3f92f
+SHA256: efeabda1df7a5b2c6bab99db35f050ae996ed5a086100ea70af6da5ea2c0489f
+SHA512: 31f0ab942995d1b73925baa9bfd011a6a6303c2152083cc8a6ed340b625f9e39e143b7eae21883bbb195d3f95c0ec32d849bd14d5b0086aab29584e47afe2f6d
 
 Package: apt
 Architecture: aarch64

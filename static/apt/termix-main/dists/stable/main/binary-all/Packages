@@ -7,11 +7,11 @@ Homepage: https://packages.debian.org/apt
 Depends: tor, apt (= 2.8.1-1)
 Description: APT transport for anonymous package downloads via Tor
 Filename: dists/stable/main/binary-all/apt-transport-tor_2.8.1-1_all.deb
-Size: 916
-MD5Sum: 976b7a77f75783f047477342c43d8105
-SHA1: f4d5518265884e60d61c04b22c1aaae1da1e5585
-SHA256: 8ef9536e0d77bbc15130d3e509bbf910e2dfe8100823795186e19305305a36f3
-SHA512: abe7c29c534dab0a60513642a26d0d7b07624d0743c0bf8512c00acc67f870b4429df66256ad2c4f0912e7dfa74caf6c0970bb25a30ef4098722b5b4c4964b77
+Size: 912
+MD5Sum: 43ef106fd2b2516b368d994882ffce42
+SHA1: 24ca76f7c2b0c3bc4439e08ee2a836249cddd274
+SHA256: dfbbede52f81ddca8b9dccd7b967bd98b4b452829def2b679fd1378249c07b01
+SHA512: 8f8f28d3fbd21ccada5e829f44fa01f74bd0094c5f47e58bcc881ab16498a1fcbf08004b91936b3c0e00b1779cde984e63e53005ac537c2a6ff39f7a65fb1bef
 
 Package: ca-certificates-java
 Architecture: all
