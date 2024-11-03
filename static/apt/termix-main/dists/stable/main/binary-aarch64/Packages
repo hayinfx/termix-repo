@@ -713,6 +713,21 @@ SHA1: c3475f103370f3213e1403cc6505ad12b7a90ae6
 SHA256: 4685072d603612194472ed90869cfdeba13c1b9d97eeae4dae98cbf20f4e6f10
 SHA512: 29e99eebb2c200a47b85b257990cb604f1abbf8903945172d21a372bd8540b082ee306c99b3da73ecb4f8db583d797694d27df799a40afe7315643faaead921a
 
+Package: icu-devtools
+Architecture: aarch64
+Installed-Size: 980
+Maintainer: @termux
+Version: 75.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 75.1)
+Description: Development utilities for International Components for Unicode
+Filename: dists/stable/main/binary-aarch64/icu-devtools_75.1_aarch64.deb
+Size: 211736
+MD5Sum: f0234b53bcf84069cabb13a09968fc70
+SHA1: 7d60811295be54b76a152affaf514c10ca53b79a
+SHA256: 66f2129016e0585493247d0c0f2a2aea3f10979a7d777dae7829ead41281d48a
+SHA512: 26258e909ca31ab3916fd0053bf01f88d63d28499df1b7cbc786a81d7ee1ae2ea095b7295f33f753e017129ea48efe2999b3992a68562850013d81d2c42089d9
+
 Package: inetutils
 Architecture: aarch64
 Installed-Size: 1144
@@ -1477,6 +1492,38 @@ MD5Sum: 1e667a557636b589ec48812b06a6b656
 SHA1: 688a3eb70775cf33283400ed8a783b9429acbe68
 SHA256: 412485fee7beea2e3c9a5208b5b08326f56396f7c9f8eb0afd22b8bd6fffe926
 SHA512: dcadef1cb6f6aac2b73b68f3415380241da9ae083869d01685c84c424150cdee1db4612f05ad5b3cdbc6429895160aa70927a3337d6327f01f20a52c53248dc2
+
+Package: libicu-static
+Architecture: aarch64
+Installed-Size: 43732
+Maintainer: @termux
+Version: 75.1
+Homepage: http://site.icu-project.org/home
+Depends: libicu (= 75.1)
+Description: Static libraries for libicu
+Filename: dists/stable/main/binary-aarch64/libicu-static_75.1_aarch64.deb
+Size: 9629248
+MD5Sum: bc405daba9d88baa578fc308b7f3d4ac
+SHA1: 53c185d8716a8c0bab344d439ed4e2458293396d
+SHA256: cb8f7feddf10e43d537b8ba2755a9bd95a46f461b06feeb47c9deb86f778b693
+SHA512: 55ccde2edd0a7a6217f9fbf20112ce77219d970cf51ccc768b5db0e92449aca6d3797a30150f5abebc8f432a0bcd9a5872d735331bb0dea9509a9a814871fc41
+
+Package: libicu
+Architecture: aarch64
+Installed-Size: 41068
+Maintainer: @termux
+Version: 75.1
+Homepage: http://site.icu-project.org/home
+Breaks: libicu-dev
+Depends: libc++
+Replaces: libicu-dev
+Description: International Components for Unicode library
+Filename: dists/stable/main/binary-aarch64/libicu_75.1_aarch64.deb
+Size: 9756408
+MD5Sum: 0de0b0de8a2af19341498a5c66b6a7fa
+SHA1: 0c8ec1f62e641ad216169a41e048e19ca45e543c
+SHA256: f9a71ac31021c6f43e1ea5f6668802472265a01f7d72dfef3a0860ee89addba6
+SHA512: c34ead3849e15e8fb6a393187de1cbcbea11b973caf9762e64a4884126db6ff131eb208045c9c4a7ccafcee7c390a6bf1d25f857ee3542f4cbab77de5ba92b8d
 
 Package: libidn2-static
 Architecture: aarch64
@@ -2848,6 +2895,25 @@ MD5Sum: bf4d542e3febce678e850a924491eb83
 SHA1: 8bed13cf6da61a1fe7088e16c31ea2ac7d0379c7
 SHA256: 1605e6e5404464f649fa7acea483c424dac616c5ba00a0566de39ed61f5a1db5
 SHA512: 8c38ce1f8fb28d8c3a700c192f7c195575fc6c50a180f484e3f5489adf92a8fa9bdb1445c57773322b522a2a6e13a12b8d23dab3f10719146a58aaa2756b21b6
+
+Package: nodejs-lts
+Architecture: aarch64
+Installed-Size: 56120
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 20.17.0
+Homepage: https://nodejs.org/
+Breaks: nodejs-dev
+Depends: libc++, openssl, c-ares, libicu, zlib
+Conflicts: nodejs, nodejs-current
+Replaces: nodejs-current, nodejs-dev
+Suggests: clang, make, pkg-config, python
+Description: Open Source, cross-platform JavaScript runtime environment
+Filename: dists/stable/main/binary-aarch64/nodejs-lts_20.17.0_aarch64.deb
+Size: 9541084
+MD5Sum: 6da225bcc188d6d7ea881eae6e8c0f60
+SHA1: 4d32e47bb5acd7149a1f35db3086731b1cd0a1ba
+SHA256: 75524ceb73d4fcf7ac2cb0d42972c60a9b2c09919b74606f59f36a3da404422e
+SHA512: 8e2a9123d6fd889099a6202fa99ba63e6f03e9cb75ff2a9e157c92127f2fe4e227251f00c8e8e333628efabf15c8575716c96844f92ca90195861fce9993ddfa
 
 Package: openjdk-17-x
 Architecture: aarch64
