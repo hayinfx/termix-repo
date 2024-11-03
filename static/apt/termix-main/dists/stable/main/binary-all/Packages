@@ -8,10 +8,10 @@ Depends: tor, apt (= 2.8.1-1)
 Description: APT transport for anonymous package downloads via Tor
 Filename: dists/stable/main/binary-all/apt-transport-tor_2.8.1-1_all.deb
 Size: 912
-MD5Sum: a93632ca2c973ec550311baec662086e
-SHA1: b1b8a3550ff1860bf95fd54a25283d91e44ff644
-SHA256: f576394df0377ce56b0309474fb24cc2f13376e1d78f3e9d2a4eb3ec9fa817b3
-SHA512: 4d391d8363daba28413fbee2b1a4640cede67cd3736d244a3bf82513b7097cc192258cf139bfeb87640e08ed84a9b2ea50ce8de17900173847bbe25756be949f
+MD5Sum: 43ef106fd2b2516b368d994882ffce42
+SHA1: 24ca76f7c2b0c3bc4439e08ee2a836249cddd274
+SHA256: dfbbede52f81ddca8b9dccd7b967bd98b4b452829def2b679fd1378249c07b01
+SHA512: 8f8f28d3fbd21ccada5e829f44fa01f74bd0094c5f47e58bcc881ab16498a1fcbf08004b91936b3c0e00b1779cde984e63e53005ac537c2a6ff39f7a65fb1bef
 
 Package: ca-certificates-java
 Architecture: all
@@ -102,6 +102,20 @@ SHA1: 8bfd709df1a0b0991e08bf513cfdfd433852a532
 SHA256: 751a179d1062d0d0e57a6a2f923e3f13cb9b0c52bf12e741419572b2d091e749
 SHA512: 25d45b565949f5fd88ff61a1b10e1607bc2152716bc6122fbe02cecacd685b84571d37a5d8e4aea20f2dce292c822b75c47896e7c0ae2ddc802ca5679165a49d
 
+Package: openjdk-17-source
+Architecture: all
+Installed-Size: 50460
+Maintainer: @termux
+Version: 17.0-37
+Homepage: https://github.com/openjdk/mobile
+Description: Source files for openjdk-17
+Filename: dists/stable/main/binary-all/openjdk-17-source_17.0-37_all.deb
+Size: 46733240
+MD5Sum: 82a35e9df26fbb4bba0d56fc7b93e2d0
+SHA1: 14b9fa5f7564687030cf0f13a1b7a20c33515e93
+SHA256: 7d746dc8d0bf0e0eb89148a0cfc3a1b8b8a907c2bc476e8da701b68cf6c74811
+SHA512: 1f11b36de3e71f0953df3e852dcbef397b5e20e05bcb4dfb2567ac48beebcf9ddb7779ebbca9f0ed5ce3c8d344302a94d77b7b1aaa1e4288c9187a680c9b6b9a
+
 Package: proot-distro
 Architecture: all
 Installed-Size: 236
@@ -117,6 +131,41 @@ MD5Sum: 1f41f2112a643ecde6a4aeaad8dc7820
 SHA1: f13c827a9a424c72c8b15ca092b37adcd9a57f1b
 SHA256: 313ede93ecd5f395288584480f86d766d2ced6176bccd5dfcf5cc8e2bf04a67b
 SHA512: d562af2ff6397e8d778b9892797a4d8c64576ffb231daeffcdd6bc03780fc491cf16b7e644821c532c952218d31fd7acc6e5cf67d0e291e6296703b98d33adab
+
+Package: python-ensurepip-wheels
+Architecture: all
+Installed-Size: 1816
+Maintainer: @termux
+Version: 3.12.7-1
+Homepage: https://python.org/
+Depends: python (= 3.12.7-1)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Description: Wheels for Python ensurepip
+Filename: dists/stable/main/binary-all/python-ensurepip-wheels_3.12.7-1_all.deb
+Size: 1775168
+MD5Sum: 8bb3b6634bc28d3574339f7b67d49f6e
+SHA1: cb1c98b4868139ad937d0048905aa0a1c42aa785
+SHA256: dad3494dd6784169b6253cb8c08106941e0eed30c355759ce47964d5b84169d8
+SHA512: 2e023aa8a61b287a91c63b730644d9f4d7b24945b8b2320aa0589146402d2e5ee768668794c2b4c2458598427bfaf71b9b9465767b0857926544e15573ec2c3f
+
+Package: python-xcbgen
+Architecture: all
+Installed-Size: 444
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-proto (= 1.17.0-1)
+Breaks: xcb-proto (<< 1.15.2)
+Recommends: python
+Replaces: xcb-proto (<< 1.15.2)
+Description: The xcbgen Python module
+Filename: dists/stable/main/binary-all/python-xcbgen_1.17.0-1_all.deb
+Size: 44588
+MD5Sum: dec26f71be0cc8a68300976bd065454f
+SHA1: de549a7797681d8450572431f24be55f8a92b3fb
+SHA256: 6e8ff862de35fd414c120f79605f609ec47a65f04bfd16de3b5ce421682400a7
+SHA512: f4eff73e00534a19cceb1b2053a77025fe0cc399f104e36d09f7b948d9abee16f310e6188095d0fa83165fbe1c43eae769ea43ff5a7205d17027910db54e56aa
 
 Package: termux-am
 Architecture: all
@@ -176,6 +225,20 @@ MD5Sum: 123c0bce38d1d09920860bfbbd260034
 SHA1: bd5e09fc7281df6e37b9f2dbbdc9afd2b55e1e0d
 SHA256: e5cd38431384ced0af8303f9fdd7cc9ba0f0c6a054dc83189be3b7b83f6adee8
 SHA512: 4ce2aeab45a9bd773ba8a3f0f701ad8add0e10b2f52e8f51b7999c4dbdc0abaec05ac24ca9c4cd0baf0f0040b01d1de30a9a49b0a7951d3c35c9abc871654ba5
+
+Package: vim-runtime
+Architecture: all
+Installed-Size: 28908
+Maintainer: @termux
+Version: 9.1.0800
+Homepage: https://www.vim.org
+Description: Vi IMproved - Runtime files
+Filename: dists/stable/main/binary-all/vim-runtime_9.1.0800_all.deb
+Size: 4967804
+MD5Sum: 9a5958d84127ea7eb1f4d7bca28cf15d
+SHA1: ea685bfce57d939dcc7ea11ea0b1e87a1147c844
+SHA256: 999ee5b234b25bbcb5abbeef8dd471eb7957b648078ea5a608d3375be79455cb
+SHA512: 008674c2c1cba9135f35bd88052f5c67b56183bbcf12a2fcfa0478f4b6edf35cb5ab3062ed10402be5c05814b333586c46c5603e5e97349fff72a05cdb7ec92c
 
 Package: xcb-proto
 Architecture: all

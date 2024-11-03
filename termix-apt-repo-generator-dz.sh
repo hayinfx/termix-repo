@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# code to generate termix apt repo
+# code to generate termix apt repo to Hugo SSG under "static" folder
 
 echo -e '\r\r'
 echo 'if this the first time you run this script, and your repo seem not work with 404 error, then you need to run command "dos2unix ./termix-apt-repo-generator.sh" to fix generating "'\''main'\''$'\''\r'\''" folder instead of "main" folder. press CTRL + C to cancel.'
@@ -27,10 +27,13 @@ fi
 # export pix env
 export PATH=$PATH:~/.local/bin
 
+# update .deb first in static source
+cp --update=none ~/termux-packages/output/* ~/termix-repo/static/
 
 #static=$HOME/termux-packages/output
-static=~/termix-repo/static
+staticSource=~/termix-repo/static
+staticTarget=~/termix-repo/static/apt/termix-main
 
-termux-apt-repo $static static/apt/termix-main stable main
+termux-apt-repo $staticSource $staticTarget stable main
 
 # repo url : https://hayinfx.github.io/termix-repo/apt/termix-main
